@@ -1,0 +1,12 @@
+io.flutter.plugins.sharedpreferences.shared_preferences_android-jetified-window-java-1.0.0-beta04-0 /Users/mohammedyasir/.gradle/caches/transforms-3/0feb25f5f6f986807b556430da6875f6/transformed/jetified-window-java-1.0.0-beta04/res
+io.flutter.plugins.sharedpreferences.shared_preferences_android-jetified-annotation-experimental-1.1.0-1 /Users/mohammedyasir/.gradle/caches/transforms-3/2180de8b8002fb294a684bb5be7642d6/transformed/jetified-annotation-experimental-1.1.0/res
+io.flutter.plugins.sharedpreferences.shared_preferences_android-core-1.6.0-2 /Users/mohammedyasir/.gradle/caches/transforms-3/25e40e9ae6c849e71bc55eea7bccfa73/transformed/core-1.6.0/res
+io.flutter.plugins.sharedpreferences.shared_preferences_android-jetified-window-1.0.0-beta04-3 /Users/mohammedyasir/.gradle/caches/transforms-3/87b89d164bee9476a6fcbdceab00e7d1/transformed/jetified-window-1.0.0-beta04/res
+io.flutter.plugins.sharedpreferences.shared_preferences_android-main-4 /Users/mohammedyasir/.pub-cache/hosted/pub.dev/shared_preferences_android-2.1.0/android/src/main/res
+io.flutter.plugins.sharedpreferences.shared_preferences_android-release-5 /Users/mohammedyasir/.pub-cache/hosted/pub.dev/shared_preferences_android-2.1.0/android/src/release/res
+io.flutter.plugins.sharedpreferences.shared_preferences_android-pngs-6 /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/shared_preferences_android/generated/res/pngs/release
+io.flutter.plugins.sharedpreferences.shared_preferences_android-resValues-7 /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/shared_preferences_android/generated/res/resValues/release
+io.flutter.plugins.sharedpreferences.shared_preferences_android-rs-8 /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/shared_preferences_android/generated/res/rs/release
+io.flutter.plugins.sharedpreferences.shared_preferences_android-mergeReleaseResources-9 /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/shared_preferences_android/intermediates/incremental/release/mergeReleaseResources/merged.dir
+io.flutter.plugins.sharedpreferences.shared_preferences_android-mergeReleaseResources-10 /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/shared_preferences_android/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+io.flutter.plugins.sharedpreferences.shared_preferences_android-merged_res-11 /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/shared_preferences_android/intermediates/merged_res/release

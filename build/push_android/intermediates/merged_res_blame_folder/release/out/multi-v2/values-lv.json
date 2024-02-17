@@ -1,0 +1,116 @@
+{
+    "logs": [
+        {
+            "outputFile": "uk.orth.push.push_android-mergeReleaseResources-10:/values-lv/values-lv.xml",
+            "map": [
+                {
+                    "source": "/Users/mohammedyasir/.gradle/caches/transforms-3/4bbd4fae404bd2f99c6a429ee1e5172b/transformed/jetified-firebase-messaging-23.0.0/res/values-lv/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "207",
+                        "endColumns": "70",
+                        "endOffsets": "277"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "330",
+                        "endColumns": "74",
+                        "endOffsets": "400"
+                    }
+                },
+                {
+                    "source": "/Users/mohammedyasir/.gradle/caches/transforms-3/282ed0180e0c94ce0576f9c21546fccc/transformed/jetified-play-services-basement-17.2.1/res/values-lv/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "224",
+                        "endOffsets": "471"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "224",
+                        "endOffsets": "325"
+                    }
+                },
+                {
+                    "source": "/Users/mohammedyasir/.gradle/caches/transforms-3/25e40e9ae6c849e71bc55eea7bccfa73/transformed/core-1.6.0/res/values-lv/values-lv.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "405",
+                        "endColumns": "100",
+                        "endOffsets": "501"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "uk.orth.push.push_android-merged_res-12:/values-lv/values-lv.xml",
+            "map": [
+                {
+                    "source": "/Users/mohammedyasir/.gradle/caches/transforms-3/4bbd4fae404bd2f99c6a429ee1e5172b/transformed/jetified-firebase-messaging-23.0.0/res/values-lv/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "207",
+                        "endColumns": "70",
+                        "endOffsets": "277"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "330",
+                        "endColumns": "74",
+                        "endOffsets": "400"
+                    }
+                },
+                {
+                    "source": "/Users/mohammedyasir/.gradle/caches/transforms-3/282ed0180e0c94ce0576f9c21546fccc/transformed/jetified-play-services-basement-17.2.1/res/values-lv/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "224",
+                        "endOffsets": "471"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "224",
+                        "endOffsets": "325"
+                    }
+                },
+                {
+                    "source": "/Users/mohammedyasir/.gradle/caches/transforms-3/25e40e9ae6c849e71bc55eea7bccfa73/transformed/core-1.6.0/res/values-lv/values-lv.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "405",
+                        "endColumns": "100",
+                        "endOffsets": "501"
+                    }
+                }
+            ]
+        }
+    ]
+}

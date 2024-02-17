@@ -1,0 +1,681 @@
+-- Merging decision tree log ---
+application
+INJECTED from /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:9:5-40:19
+MERGED from [:firebase_core] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_core] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
+MERGED from [:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:15:5-32:19
+MERGED from [:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:15:5-32:19
+MERGED from [:push_android] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-28:19
+MERGED from [:push_android] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-28:19
+MERGED from [com.google.firebase:firebase-messaging-ktx:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/6d82433353857a8b96f9a5407e875bc4/transformed/jetified-firebase-messaging-ktx-23.3.1/AndroidManifest.xml:22:5-30:19
+MERGED from [com.google.firebase:firebase-messaging-ktx:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/6d82433353857a8b96f9a5407e875bc4/transformed/jetified-firebase-messaging-ktx-23.3.1/AndroidManifest.xml:22:5-30:19
+MERGED from [com.google.firebase:firebase-messaging:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/c8e04040bc0a9f2abdd1c112bcefe992/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:28:5-64:19
+MERGED from [com.google.firebase:firebase-messaging:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/c8e04040bc0a9f2abdd1c112bcefe992/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:28:5-64:19
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/mohammedyasir/.gradle/caches/transforms-3/267c61e5ef6dcf922436454714455756/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/mohammedyasir/.gradle/caches/transforms-3/267c61e5ef6dcf922436454714455756/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/mohammedyasir/.gradle/caches/transforms-3/0fc409c31985cc11dbbd20e8c0f20c72/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/mohammedyasir/.gradle/caches/transforms-3/0fc409c31985cc11dbbd20e8c0f20c72/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/mohammedyasir/.gradle/caches/transforms-3/e3fe5034124f26bb86d0a873c961dbd7/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/mohammedyasir/.gradle/caches/transforms-3/e3fe5034124f26bb86d0a873c961dbd7/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:22:5-39:19
+MERGED from [androidx.window:window:1.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/98d81c25d0eed547d40066e00fb2e181/transformed/jetified-window-1.0.0/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/98d81c25d0eed547d40066e00fb2e181/transformed/jetified-window-1.0.0/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/mohammedyasir/.gradle/caches/transforms-3/45a49a89c943ab953313b32faa24ffc9/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/mohammedyasir/.gradle/caches/transforms-3/45a49a89c943ab953313b32faa24ffc9/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/mohammedyasir/.gradle/caches/transforms-3/75d6848faec4f46cb3dc2940fe6694da/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/mohammedyasir/.gradle/caches/transforms-3/75d6848faec4f46cb3dc2940fe6694da/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/mohammedyasir/.gradle/caches/transforms-3/edcb68729614718a4fe620b8418b467b/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/mohammedyasir/.gradle/caches/transforms-3/edcb68729614718a4fe620b8418b467b/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/mohammedyasir/.gradle/caches/transforms-3/592b9817a2c715613dd9f0303e0dc100/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/mohammedyasir/.gradle/caches/transforms-3/592b9817a2c715613dd9f0303e0dc100/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/mohammedyasir/.gradle/caches/transforms-3/b96615080cd47fd483bbff940bcd1ad4/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/mohammedyasir/.gradle/caches/transforms-3/b96615080cd47fd483bbff940bcd1ad4/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/7ed407e0e4016ad73b1830328ceb073d/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/7ed407e0e4016ad73b1830328ceb073d/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/mohammedyasir/.gradle/caches/transforms-3/9b317b22b35e8b3cbd542c0a3d802eb3/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/mohammedyasir/.gradle/caches/transforms-3/9b317b22b35e8b3cbd542c0a3d802eb3/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.core:core:1.6.0] /Users/mohammedyasir/.gradle/caches/transforms-3/25e40e9ae6c849e71bc55eea7bccfa73/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] /Users/mohammedyasir/.gradle/caches/transforms-3/25e40e9ae6c849e71bc55eea7bccfa73/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/mohammedyasir/.gradle/caches/transforms-3/730a944d5f2761361c3256b9952c14eb/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/mohammedyasir/.gradle/caches/transforms-3/730a944d5f2761361c3256b9952c14eb/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.7] /Users/mohammedyasir/.gradle/caches/transforms-3/f03eb9a55a1c0d9db6f091223e18536f/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:23:5-31:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.7] /Users/mohammedyasir/.gradle/caches/transforms-3/f03eb9a55a1c0d9db6f091223e18536f/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:23:5-31:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/mohammedyasir/.gradle/caches/transforms-3/985e7d726d144a28917abf03a649c37f/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/mohammedyasir/.gradle/caches/transforms-3/985e7d726d144a28917abf03a649c37f/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/mohammedyasir/.gradle/caches/transforms-3/f1dc5d5000221fba917924cbe1b4bfb0/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/mohammedyasir/.gradle/caches/transforms-3/f1dc5d5000221fba917924cbe1b4bfb0/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:25:5-39:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.6.0] /Users/mohammedyasir/.gradle/caches/transforms-3/25e40e9ae6c849e71bc55eea7bccfa73/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:12:9-45
+	android:icon
+		ADDED from /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:11:9-43
+	android:name
+		INJECTED from /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:10:9-42
+manifest
+ADDED from /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:1:1-41:12
+INJECTED from /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:1:1-41:12
+INJECTED from /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:1:1-41:12
+INJECTED from /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:1:1-41:12
+MERGED from [:shared_preferences_android] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/shared_preferences_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:firebase_core] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-17:12
+MERGED from [:file_picker] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-19:12
+MERGED from [:flutter_plugin_android_lifecycle] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:flutter_app_badger] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_app_badger/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:isar_flutter_libs] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/isar_flutter_libs/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-10:12
+MERGED from [:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-34:12
+MERGED from [:fluttertoast] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/fluttertoast/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:path_provider_android] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/path_provider_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:push_android] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-30:12
+MERGED from [:connectivity_plus] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/connectivity_plus/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-messaging-ktx:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/6d82433353857a8b96f9a5407e875bc4/transformed/jetified-firebase-messaging-ktx-23.3.1/AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.firebase:firebase-messaging:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/c8e04040bc0a9f2abdd1c112bcefe992/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:17:1-66:12
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/mohammedyasir/.gradle/caches/transforms-3/267c61e5ef6dcf922436454714455756/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/mohammedyasir/.gradle/caches/transforms-3/0fc409c31985cc11dbbd20e8c0f20c72/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/mohammedyasir/.gradle/caches/transforms-3/e3fe5034124f26bb86d0a873c961dbd7/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:15:1-41:12
+MERGED from [androidx.window:window-java:1.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/bda7923180bb22f00337747a962063d7/transformed/jetified-window-java-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.window:window:1.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/98d81c25d0eed547d40066e00fb2e181/transformed/jetified-window-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/2dbd91cbaf0cf52655f6fc7735d7adf7/transformed/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/mohammedyasir/.gradle/caches/transforms-3/45a49a89c943ab953313b32faa24ffc9/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.media:media:1.1.0] /Users/mohammedyasir/.gradle/caches/transforms-3/c5bfa018e1fc78d90084fd624ff18c4a/transformed/media-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/mohammedyasir/.gradle/caches/transforms-3/75d6848faec4f46cb3dc2940fe6694da/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/mohammedyasir/.gradle/caches/transforms-3/edcb68729614718a4fe620b8418b467b/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/mohammedyasir/.gradle/caches/transforms-3/be19aa1c088dc153961e698fccc88506/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] /Users/mohammedyasir/.gradle/caches/transforms-3/937414c7e6d93fcf8fcf22fa08a45aab/transformed/jetified-firebase-installations-interop-17.1.1/AndroidManifest.xml:15:1-19:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/mohammedyasir/.gradle/caches/transforms-3/592b9817a2c715613dd9f0303e0dc100/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/mohammedyasir/.gradle/caches/transforms-3/b96615080cd47fd483bbff940bcd1ad4/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/7ed407e0e4016ad73b1830328ceb073d/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/mohammedyasir/.gradle/caches/transforms-3/9b317b22b35e8b3cbd542c0a3d802eb3/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/mohammedyasir/.gradle/caches/transforms-3/2d7b068b4e15f31997ee8fd7028c463e/transformed/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/e92f6ceb538d9798818d5dba230c591a/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/807d0c2a217228ca000f7d67a5d9b01a/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/91c90e7ad3b60853a7e5c54d05e3705a/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/a5001fd80f510fb0002e4b13610b525f/transformed/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/9e92b48c15dc40106698ea7686b7d24a/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.6.0] /Users/mohammedyasir/.gradle/caches/transforms-3/25e40e9ae6c849e71bc55eea7bccfa73/transformed/core-1.6.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/mohammedyasir/.gradle/caches/transforms-3/730a944d5f2761361c3256b9952c14eb/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/mohammedyasir/.gradle/caches/transforms-3/e439c604ede0badb7f1c29cd8d8b739a/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/5fc873496d0efa918a779bed369fc57a/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/52d464c10ada19613b51cf48abe76169/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/dec6388a2cc73202a87795571b123bd3/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/96f675766be206d23dc7ccce6b58975d/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/5835a03dbe47e35a6408dcd8feda6094/transformed/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:17.1.5] /Users/mohammedyasir/.gradle/caches/transforms-3/8e296b643179f2829279077005751850/transformed/jetified-firebase-components-17.1.5/AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/mohammedyasir/.gradle/caches/transforms-3/32c86f4708d75bc2582cc8d58d18c125/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-datatransport:18.1.7] /Users/mohammedyasir/.gradle/caches/transforms-3/f03eb9a55a1c0d9db6f091223e18536f/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:15:1-33:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/mohammedyasir/.gradle/caches/transforms-3/985e7d726d144a28917abf03a649c37f/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:15:1-37:12
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/mohammedyasir/.gradle/caches/transforms-3/f1dc5d5000221fba917924cbe1b4bfb0/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/d3fab294a2fe448de08e240c49f2102d/transformed/jetified-transport-api-3.0.0/AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/8276cae54b74b9d315e4e6723464fe12/transformed/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/4dbc6cc5fc3d97a58fa9b4b1fcb93186/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/a14627b0c44bca3d8347009dfb7cb4de/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/6e817177e4ff812cdca074c577d77fb2/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/mohammedyasir/.gradle/caches/transforms-3/5d528540acb03f6c9ac29d6f8efb7ef8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:2:1-52:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/mohammedyasir/.gradle/caches/transforms-3/2180de8b8002fb294a684bb5be7642d6/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:1:1-41:12
+INJECTED from /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:1:1-41:12
+INJECTED from /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:1:1-41:12
+	package
+		ADDED from /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:2:5-23
+		INJECTED from /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:1:1-41:12
+		INJECTED from /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:1:1-41:12
+		INJECTED from /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/mohammedyasir/.gradle/caches/transforms-3/267c61e5ef6dcf922436454714455756/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/mohammedyasir/.gradle/caches/transforms-3/267c61e5ef6dcf922436454714455756/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/mohammedyasir/.gradle/caches/transforms-3/be19aa1c088dc153961e698fccc88506/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/mohammedyasir/.gradle/caches/transforms-3/be19aa1c088dc153961e698fccc88506/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/mohammedyasir/.gradle/caches/transforms-3/985e7d726d144a28917abf03a649c37f/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/mohammedyasir/.gradle/caches/transforms-3/985e7d726d144a28917abf03a649c37f/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:25:5-67
+	android:name
+		ADDED from /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:5:5-79
+MERGED from [:connectivity_plus] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/connectivity_plus/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-79
+MERGED from [:connectivity_plus] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/connectivity_plus/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-79
+MERGED from [com.google.firebase:firebase-messaging:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/c8e04040bc0a9f2abdd1c112bcefe992/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-messaging:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/c8e04040bc0a9f2abdd1c112bcefe992/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/mohammedyasir/.gradle/caches/transforms-3/267c61e5ef6dcf922436454714455756/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/mohammedyasir/.gradle/caches/transforms-3/267c61e5ef6dcf922436454714455756/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/mohammedyasir/.gradle/caches/transforms-3/be19aa1c088dc153961e698fccc88506/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/mohammedyasir/.gradle/caches/transforms-3/be19aa1c088dc153961e698fccc88506/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/mohammedyasir/.gradle/caches/transforms-3/985e7d726d144a28917abf03a649c37f/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/mohammedyasir/.gradle/caches/transforms-3/985e7d726d144a28917abf03a649c37f/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/mohammedyasir/.gradle/caches/transforms-3/f1dc5d5000221fba917924cbe1b4bfb0/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/mohammedyasir/.gradle/caches/transforms-3/f1dc5d5000221fba917924cbe1b4bfb0/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:5:22-76
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:6:5-80
+MERGED from [:file_picker] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-80
+MERGED from [:file_picker] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-80
+	android:name
+		ADDED from /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:6:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:7:22-78
+uses-sdk
+INJECTED from /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml
+MERGED from [:shared_preferences_android] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/shared_preferences_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:shared_preferences_android] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/shared_preferences_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_core] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_core] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:file_picker] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:file_picker] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_plugin_android_lifecycle] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_plugin_android_lifecycle] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_app_badger] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_app_badger/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_app_badger] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_app_badger/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:isar_flutter_libs] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/isar_flutter_libs/intermediates/merged_manifest/release/AndroidManifest.xml:6:5-8:41
+MERGED from [:isar_flutter_libs] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/isar_flutter_libs/intermediates/merged_manifest/release/AndroidManifest.xml:6:5-8:41
+MERGED from [:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:fluttertoast] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/fluttertoast/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:fluttertoast] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/fluttertoast/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:path_provider_android] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/path_provider_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:path_provider_android] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/path_provider_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:push_android] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:push_android] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:connectivity_plus] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/connectivity_plus/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:connectivity_plus] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/connectivity_plus/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-messaging-ktx:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/6d82433353857a8b96f9a5407e875bc4/transformed/jetified-firebase-messaging-ktx-23.3.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging-ktx:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/6d82433353857a8b96f9a5407e875bc4/transformed/jetified-firebase-messaging-ktx-23.3.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/c8e04040bc0a9f2abdd1c112bcefe992/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/c8e04040bc0a9f2abdd1c112bcefe992/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/mohammedyasir/.gradle/caches/transforms-3/267c61e5ef6dcf922436454714455756/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/mohammedyasir/.gradle/caches/transforms-3/267c61e5ef6dcf922436454714455756/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/mohammedyasir/.gradle/caches/transforms-3/0fc409c31985cc11dbbd20e8c0f20c72/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/mohammedyasir/.gradle/caches/transforms-3/0fc409c31985cc11dbbd20e8c0f20c72/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/mohammedyasir/.gradle/caches/transforms-3/e3fe5034124f26bb86d0a873c961dbd7/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/mohammedyasir/.gradle/caches/transforms-3/e3fe5034124f26bb86d0a873c961dbd7/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:19:5-44
+MERGED from [androidx.window:window-java:1.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/bda7923180bb22f00337747a962063d7/transformed/jetified-window-java-1.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window-java:1.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/bda7923180bb22f00337747a962063d7/transformed/jetified-window-java-1.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window:1.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/98d81c25d0eed547d40066e00fb2e181/transformed/jetified-window-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/98d81c25d0eed547d40066e00fb2e181/transformed/jetified-window-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/2dbd91cbaf0cf52655f6fc7735d7adf7/transformed/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/2dbd91cbaf0cf52655f6fc7735d7adf7/transformed/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/mohammedyasir/.gradle/caches/transforms-3/45a49a89c943ab953313b32faa24ffc9/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/mohammedyasir/.gradle/caches/transforms-3/45a49a89c943ab953313b32faa24ffc9/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.media:media:1.1.0] /Users/mohammedyasir/.gradle/caches/transforms-3/c5bfa018e1fc78d90084fd624ff18c4a/transformed/media-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.1.0] /Users/mohammedyasir/.gradle/caches/transforms-3/c5bfa018e1fc78d90084fd624ff18c4a/transformed/media-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/mohammedyasir/.gradle/caches/transforms-3/75d6848faec4f46cb3dc2940fe6694da/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/mohammedyasir/.gradle/caches/transforms-3/75d6848faec4f46cb3dc2940fe6694da/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/mohammedyasir/.gradle/caches/transforms-3/edcb68729614718a4fe620b8418b467b/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/mohammedyasir/.gradle/caches/transforms-3/edcb68729614718a4fe620b8418b467b/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/mohammedyasir/.gradle/caches/transforms-3/be19aa1c088dc153961e698fccc88506/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/mohammedyasir/.gradle/caches/transforms-3/be19aa1c088dc153961e698fccc88506/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] /Users/mohammedyasir/.gradle/caches/transforms-3/937414c7e6d93fcf8fcf22fa08a45aab/transformed/jetified-firebase-installations-interop-17.1.1/AndroidManifest.xml:17:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] /Users/mohammedyasir/.gradle/caches/transforms-3/937414c7e6d93fcf8fcf22fa08a45aab/transformed/jetified-firebase-installations-interop-17.1.1/AndroidManifest.xml:17:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/mohammedyasir/.gradle/caches/transforms-3/592b9817a2c715613dd9f0303e0dc100/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/mohammedyasir/.gradle/caches/transforms-3/592b9817a2c715613dd9f0303e0dc100/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/mohammedyasir/.gradle/caches/transforms-3/b96615080cd47fd483bbff940bcd1ad4/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/mohammedyasir/.gradle/caches/transforms-3/b96615080cd47fd483bbff940bcd1ad4/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/7ed407e0e4016ad73b1830328ceb073d/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/7ed407e0e4016ad73b1830328ceb073d/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/mohammedyasir/.gradle/caches/transforms-3/9b317b22b35e8b3cbd542c0a3d802eb3/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/mohammedyasir/.gradle/caches/transforms-3/9b317b22b35e8b3cbd542c0a3d802eb3/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/mohammedyasir/.gradle/caches/transforms-3/2d7b068b4e15f31997ee8fd7028c463e/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/mohammedyasir/.gradle/caches/transforms-3/2d7b068b4e15f31997ee8fd7028c463e/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/e92f6ceb538d9798818d5dba230c591a/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/e92f6ceb538d9798818d5dba230c591a/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/807d0c2a217228ca000f7d67a5d9b01a/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/807d0c2a217228ca000f7d67a5d9b01a/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/91c90e7ad3b60853a7e5c54d05e3705a/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/91c90e7ad3b60853a7e5c54d05e3705a/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/a5001fd80f510fb0002e4b13610b525f/transformed/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/a5001fd80f510fb0002e4b13610b525f/transformed/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/9e92b48c15dc40106698ea7686b7d24a/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/9e92b48c15dc40106698ea7686b7d24a/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.6.0] /Users/mohammedyasir/.gradle/caches/transforms-3/25e40e9ae6c849e71bc55eea7bccfa73/transformed/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] /Users/mohammedyasir/.gradle/caches/transforms-3/25e40e9ae6c849e71bc55eea7bccfa73/transformed/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/mohammedyasir/.gradle/caches/transforms-3/730a944d5f2761361c3256b9952c14eb/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/mohammedyasir/.gradle/caches/transforms-3/730a944d5f2761361c3256b9952c14eb/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/mohammedyasir/.gradle/caches/transforms-3/e439c604ede0badb7f1c29cd8d8b739a/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/mohammedyasir/.gradle/caches/transforms-3/e439c604ede0badb7f1c29cd8d8b739a/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/5fc873496d0efa918a779bed369fc57a/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/5fc873496d0efa918a779bed369fc57a/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/52d464c10ada19613b51cf48abe76169/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/52d464c10ada19613b51cf48abe76169/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/dec6388a2cc73202a87795571b123bd3/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/dec6388a2cc73202a87795571b123bd3/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/96f675766be206d23dc7ccce6b58975d/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/96f675766be206d23dc7ccce6b58975d/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/5835a03dbe47e35a6408dcd8feda6094/transformed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/5835a03dbe47e35a6408dcd8feda6094/transformed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:17.1.5] /Users/mohammedyasir/.gradle/caches/transforms-3/8e296b643179f2829279077005751850/transformed/jetified-firebase-components-17.1.5/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-components:17.1.5] /Users/mohammedyasir/.gradle/caches/transforms-3/8e296b643179f2829279077005751850/transformed/jetified-firebase-components-17.1.5/AndroidManifest.xml:18:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/mohammedyasir/.gradle/caches/transforms-3/32c86f4708d75bc2582cc8d58d18c125/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/mohammedyasir/.gradle/caches/transforms-3/32c86f4708d75bc2582cc8d58d18c125/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-datatransport:18.1.7] /Users/mohammedyasir/.gradle/caches/transforms-3/f03eb9a55a1c0d9db6f091223e18536f/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-datatransport:18.1.7] /Users/mohammedyasir/.gradle/caches/transforms-3/f03eb9a55a1c0d9db6f091223e18536f/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/mohammedyasir/.gradle/caches/transforms-3/985e7d726d144a28917abf03a649c37f/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/mohammedyasir/.gradle/caches/transforms-3/985e7d726d144a28917abf03a649c37f/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/mohammedyasir/.gradle/caches/transforms-3/f1dc5d5000221fba917924cbe1b4bfb0/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/mohammedyasir/.gradle/caches/transforms-3/f1dc5d5000221fba917924cbe1b4bfb0/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/d3fab294a2fe448de08e240c49f2102d/transformed/jetified-transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/d3fab294a2fe448de08e240c49f2102d/transformed/jetified-transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/8276cae54b74b9d315e4e6723464fe12/transformed/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/8276cae54b74b9d315e4e6723464fe12/transformed/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/4dbc6cc5fc3d97a58fa9b4b1fcb93186/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/4dbc6cc5fc3d97a58fa9b4b1fcb93186/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/a14627b0c44bca3d8347009dfb7cb4de/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/a14627b0c44bca3d8347009dfb7cb4de/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/6e817177e4ff812cdca074c577d77fb2/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/6e817177e4ff812cdca074c577d77fb2/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/mohammedyasir/.gradle/caches/transforms-3/5d528540acb03f6c9ac29d6f8efb7ef8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:7:5-9:41
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/mohammedyasir/.gradle/caches/transforms-3/5d528540acb03f6c9ac29d6f8efb7ef8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/mohammedyasir/.gradle/caches/transforms-3/2180de8b8002fb294a684bb5be7642d6/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/mohammedyasir/.gradle/caches/transforms-3/2180de8b8002fb294a684bb5be7642d6/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml
+activity#com.chat.MainActivity
+ADDED from /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:13:9-34:20
+	android:turnScreenOn
+		ADDED from /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:21:13-40
+	android:showWhenLocked
+		ADDED from /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:19:13-42
+	android:launchMode
+		ADDED from /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:18:13-43
+	android:hardwareAccelerated
+		ADDED from /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:17:13-47
+	android:windowSoftInputMode
+		ADDED from /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:22:13-55
+	android:exported
+		ADDED from /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:16:13-36
+	android:configChanges
+		ADDED from /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:15:13-163
+	android:theme
+		ADDED from /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:20:13-47
+	android:name
+		ADDED from /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:14:13-41
+meta-data#io.flutter.embedding.android.NormalTheme
+ADDED from /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:27:13-29:57
+	android:resource
+		ADDED from /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:29:17-54
+	android:name
+		ADDED from /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:28:17-72
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:30:13-33:29
+action#android.intent.action.MAIN
+ADDED from /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:31:17-69
+	android:name
+		ADDED from /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:31:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:32:17-77
+	android:name
+		ADDED from /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:32:27-74
+meta-data#flutterEmbedding
+ADDED from /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:37:9-39:33
+	android:value
+		ADDED from /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:39:13-30
+	android:name
+		ADDED from /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:38:13-44
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:firebase_core] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
+MERGED from [com.google.firebase:firebase-messaging-ktx:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/6d82433353857a8b96f9a5407e875bc4/transformed/jetified-firebase-messaging-ktx-23.3.1/AndroidManifest.xml:23:9-29:19
+MERGED from [com.google.firebase:firebase-messaging-ktx:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/6d82433353857a8b96f9a5407e875bc4/transformed/jetified-firebase-messaging-ktx-23.3.1/AndroidManifest.xml:23:9-29:19
+MERGED from [com.google.firebase:firebase-messaging:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/c8e04040bc0a9f2abdd1c112bcefe992/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:54:9-63:19
+MERGED from [com.google.firebase:firebase-messaging:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/c8e04040bc0a9f2abdd1c112bcefe992/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:54:9-63:19
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/mohammedyasir/.gradle/caches/transforms-3/267c61e5ef6dcf922436454714455756/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/mohammedyasir/.gradle/caches/transforms-3/267c61e5ef6dcf922436454714455756/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/mohammedyasir/.gradle/caches/transforms-3/0fc409c31985cc11dbbd20e8c0f20c72/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/mohammedyasir/.gradle/caches/transforms-3/0fc409c31985cc11dbbd20e8c0f20c72/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/mohammedyasir/.gradle/caches/transforms-3/e3fe5034124f26bb86d0a873c961dbd7/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/mohammedyasir/.gradle/caches/transforms-3/e3fe5034124f26bb86d0a873c961dbd7/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.7] /Users/mohammedyasir/.gradle/caches/transforms-3/f03eb9a55a1c0d9db6f091223e18536f/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:24:9-30:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.7] /Users/mohammedyasir/.gradle/caches/transforms-3/f03eb9a55a1c0d9db6f091223e18536f/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:24:9-30:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging-ktx:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/6d82433353857a8b96f9a5407e875bc4/transformed/jetified-firebase-messaging-ktx-23.3.1/AndroidManifest.xml:25:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/mohammedyasir/.gradle/caches/transforms-3/e3fe5034124f26bb86d0a873c961dbd7/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:34:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/mohammedyasir/.gradle/caches/transforms-3/e3fe5034124f26bb86d0a873c961dbd7/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:32:13-43
+	android:name
+		ADDED from [:firebase_core] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:10:18-89
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
+ADDED from [:firebase_core] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [:firebase_core] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [:firebase_core] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+queries
+ADDED from [:file_picker] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-17:15
+intent#action:name:android.intent.action.GET_CONTENT+data:mimeType:*/*
+ADDED from [:file_picker] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:12:9-16:18
+action#android.intent.action.GET_CONTENT
+ADDED from [:file_picker] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-72
+	android:name
+		ADDED from [:file_picker] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:13:21-69
+data
+ADDED from [:file_picker] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-44
+	android:mimeType
+		ADDED from [:file_picker] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:15:19-41
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-78
+uses-permission#android.permission.VIBRATE
+ADDED from [:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-66
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-63
+uses-permission#android.permission.USE_FULL_SCREEN_INTENT
+ADDED from [:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:11:22-78
+uses-permission#android.permission.SCHEDULE_EXACT_ALARM
+ADDED from [:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:12:22-76
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from [:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-77
+MERGED from [:push_android] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-77
+MERGED from [:push_android] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-77
+MERGED from [com.google.firebase:firebase-messaging:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/c8e04040bc0a9f2abdd1c112bcefe992/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:23:5-77
+MERGED from [com.google.firebase:firebase-messaging:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/c8e04040bc0a9f2abdd1c112bcefe992/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:23:5-77
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:13:22-74
+receiver#com.dexterous.flutterlocalnotifications.ActionBroadcastReceiver
+ADDED from [:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-18:40
+	android:exported
+		ADDED from [:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-91
+receiver#com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver
+ADDED from [:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:19:9-21:40
+	android:exported
+		ADDED from [:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-37
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-97
+receiver#com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver
+ADDED from [:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:22:9-31:20
+	android:exported
+		ADDED from [:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-37
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-101
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.MY_PACKAGE_REPLACED+action:name:android.intent.action.QUICKBOOT_POWERON+action:name:com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from [:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:25:13-30:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:26:17-79
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:26:25-76
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:27:17-84
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:27:25-81
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from [:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:28:17-82
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:28:25-79
+action#com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from [:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:29:17-82
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:29:25-79
+receiver#uk.orth.push.FirebaseMessagingReceiver
+ADDED from [:push_android] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:9-19:20
+	android:exported
+		ADDED from [:push_android] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-36
+	android:permission
+		ADDED from [:push_android] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-73
+	android:name
+		ADDED from [:push_android] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-66
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [:push_android] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-18:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [:push_android] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-81
+	android:name
+		ADDED from [:push_android] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:17:25-78
+service#uk.orth.push.MessagingService
+ADDED from [:push_android] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:21:9-27:19
+	android:exported
+		ADDED from [:push_android] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-37
+	android:name
+		ADDED from [:push_android] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-57
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [:push_android] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-26:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [:push_android] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:25:17-78
+	android:name
+		ADDED from [:push_android] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:25:25-75
+meta-data#com.google.firebase.components:com.google.firebase.messaging.ktx.FirebaseMessagingLegacyRegistrar
+ADDED from [com.google.firebase:firebase-messaging-ktx:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/6d82433353857a8b96f9a5407e875bc4/transformed/jetified-firebase-messaging-ktx-23.3.1/AndroidManifest.xml:26:13-28:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging-ktx:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/6d82433353857a8b96f9a5407e875bc4/transformed/jetified-firebase-messaging-ktx-23.3.1/AndroidManifest.xml:28:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging-ktx:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/6d82433353857a8b96f9a5407e875bc4/transformed/jetified-firebase-messaging-ktx-23.3.1/AndroidManifest.xml:27:17-129
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-messaging:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/c8e04040bc0a9f2abdd1c112bcefe992/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/mohammedyasir/.gradle/caches/transforms-3/be19aa1c088dc153961e698fccc88506/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:9:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/mohammedyasir/.gradle/caches/transforms-3/be19aa1c088dc153961e698fccc88506/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:9:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/c8e04040bc0a9f2abdd1c112bcefe992/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:24:22-65
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/c8e04040bc0a9f2abdd1c112bcefe992/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:26:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/mohammedyasir/.gradle/caches/transforms-3/be19aa1c088dc153961e698fccc88506/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:11:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/mohammedyasir/.gradle/caches/transforms-3/be19aa1c088dc153961e698fccc88506/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:11:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/c8e04040bc0a9f2abdd1c112bcefe992/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:26:22-79
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-messaging:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/c8e04040bc0a9f2abdd1c112bcefe992/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:29:9-40:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/c8e04040bc0a9f2abdd1c112bcefe992/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:31:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-messaging:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/c8e04040bc0a9f2abdd1c112bcefe992/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:32:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/c8e04040bc0a9f2abdd1c112bcefe992/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:30:13-78
+meta-data#com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED
+ADDED from [com.google.firebase:firebase-messaging:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/c8e04040bc0a9f2abdd1c112bcefe992/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:37:13-39:40
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/c8e04040bc0a9f2abdd1c112bcefe992/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:39:17-37
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/c8e04040bc0a9f2abdd1c112bcefe992/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:38:17-92
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/c8e04040bc0a9f2abdd1c112bcefe992/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:46:9-53:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/c8e04040bc0a9f2abdd1c112bcefe992/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:49:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-messaging:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/c8e04040bc0a9f2abdd1c112bcefe992/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:48:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/c8e04040bc0a9f2abdd1c112bcefe992/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:47:13-82
+meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar
+ADDED from [com.google.firebase:firebase-messaging:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/c8e04040bc0a9f2abdd1c112bcefe992/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:57:13-59:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/c8e04040bc0a9f2abdd1c112bcefe992/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:59:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/c8e04040bc0a9f2abdd1c112bcefe992/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:58:17-122
+meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar
+ADDED from [com.google.firebase:firebase-messaging:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/c8e04040bc0a9f2abdd1c112bcefe992/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:60:13-62:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/c8e04040bc0a9f2abdd1c112bcefe992/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:62:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/c8e04040bc0a9f2abdd1c112bcefe992/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:61:17-119
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.2.0] /Users/mohammedyasir/.gradle/caches/transforms-3/267c61e5ef6dcf922436454714455756/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.2.0] /Users/mohammedyasir/.gradle/caches/transforms-3/267c61e5ef6dcf922436454714455756/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.2.0] /Users/mohammedyasir/.gradle/caches/transforms-3/267c61e5ef6dcf922436454714455756/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:16:17-130
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.2.0] /Users/mohammedyasir/.gradle/caches/transforms-3/267c61e5ef6dcf922436454714455756/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.2.0] /Users/mohammedyasir/.gradle/caches/transforms-3/267c61e5ef6dcf922436454714455756/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.2.0] /Users/mohammedyasir/.gradle/caches/transforms-3/267c61e5ef6dcf922436454714455756/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:19:17-127
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/mohammedyasir/.gradle/caches/transforms-3/0fc409c31985cc11dbbd20e8c0f20c72/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/mohammedyasir/.gradle/caches/transforms-3/0fc409c31985cc11dbbd20e8c0f20c72/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/mohammedyasir/.gradle/caches/transforms-3/0fc409c31985cc11dbbd20e8c0f20c72/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:13:17-116
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/mohammedyasir/.gradle/caches/transforms-3/e3fe5034124f26bb86d0a873c961dbd7/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:23:9-28:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/mohammedyasir/.gradle/caches/transforms-3/e3fe5034124f26bb86d0a873c961dbd7/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:25:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/mohammedyasir/.gradle/caches/transforms-3/e3fe5034124f26bb86d0a873c961dbd7/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:27:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/mohammedyasir/.gradle/caches/transforms-3/e3fe5034124f26bb86d0a873c961dbd7/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:26:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/mohammedyasir/.gradle/caches/transforms-3/e3fe5034124f26bb86d0a873c961dbd7/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:28:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/mohammedyasir/.gradle/caches/transforms-3/e3fe5034124f26bb86d0a873c961dbd7/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:24:13-77
+meta-data#com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/mohammedyasir/.gradle/caches/transforms-3/e3fe5034124f26bb86d0a873c961dbd7/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:35:13-37:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/mohammedyasir/.gradle/caches/transforms-3/e3fe5034124f26bb86d0a873c961dbd7/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:37:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/mohammedyasir/.gradle/caches/transforms-3/e3fe5034124f26bb86d0a873c961dbd7/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:36:17-109
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/98d81c25d0eed547d40066e00fb2e181/transformed/jetified-window-1.0.0/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/98d81c25d0eed547d40066e00fb2e181/transformed/jetified-window-1.0.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/98d81c25d0eed547d40066e00fb2e181/transformed/jetified-window-1.0.0/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/98d81c25d0eed547d40066e00fb2e181/transformed/jetified-window-1.0.0/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/98d81c25d0eed547d40066e00fb2e181/transformed/jetified-window-1.0.0/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/98d81c25d0eed547d40066e00fb2e181/transformed/jetified-window-1.0.0/AndroidManifest.xml:29:13-51
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.startup:startup-runtime:1.1.1] /Users/mohammedyasir/.gradle/caches/transforms-3/45a49a89c943ab953313b32faa24ffc9/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.startup:startup-runtime:1.1.1] /Users/mohammedyasir/.gradle/caches/transforms-3/45a49a89c943ab953313b32faa24ffc9/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:30:13-31
+	android:authorities
+		ADDED from [androidx.startup:startup-runtime:1.1.1] /Users/mohammedyasir/.gradle/caches/transforms-3/45a49a89c943ab953313b32faa24ffc9/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:28:13-68
+	android:exported
+		ADDED from [androidx.startup:startup-runtime:1.1.1] /Users/mohammedyasir/.gradle/caches/transforms-3/45a49a89c943ab953313b32faa24ffc9/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [androidx.startup:startup-runtime:1.1.1] /Users/mohammedyasir/.gradle/caches/transforms-3/45a49a89c943ab953313b32faa24ffc9/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:27:13-67
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/mohammedyasir/.gradle/caches/transforms-3/edcb68729614718a4fe620b8418b467b/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/mohammedyasir/.gradle/caches/transforms-3/edcb68729614718a4fe620b8418b467b/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/mohammedyasir/.gradle/caches/transforms-3/edcb68729614718a4fe620b8418b467b/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/mohammedyasir/.gradle/caches/transforms-3/edcb68729614718a4fe620b8418b467b/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/mohammedyasir/.gradle/caches/transforms-3/9b317b22b35e8b3cbd542c0a3d802eb3/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/mohammedyasir/.gradle/caches/transforms-3/9b317b22b35e8b3cbd542c0a3d802eb3/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/mohammedyasir/.gradle/caches/transforms-3/9b317b22b35e8b3cbd542c0a3d802eb3/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+meta-data#com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar
+ADDED from [com.google.firebase:firebase-datatransport:18.1.7] /Users/mohammedyasir/.gradle/caches/transforms-3/f03eb9a55a1c0d9db6f091223e18536f/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:27:13-29:85
+	android:value
+		ADDED from [com.google.firebase:firebase-datatransport:18.1.7] /Users/mohammedyasir/.gradle/caches/transforms-3/f03eb9a55a1c0d9db6f091223e18536f/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:29:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-datatransport:18.1.7] /Users/mohammedyasir/.gradle/caches/transforms-3/f03eb9a55a1c0d9db6f091223e18536f/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:28:17-115
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/mohammedyasir/.gradle/caches/transforms-3/985e7d726d144a28917abf03a649c37f/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/mohammedyasir/.gradle/caches/transforms-3/f1dc5d5000221fba917924cbe1b4bfb0/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/mohammedyasir/.gradle/caches/transforms-3/f1dc5d5000221fba917924cbe1b4bfb0/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/mohammedyasir/.gradle/caches/transforms-3/985e7d726d144a28917abf03a649c37f/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/mohammedyasir/.gradle/caches/transforms-3/985e7d726d144a28917abf03a649c37f/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/mohammedyasir/.gradle/caches/transforms-3/985e7d726d144a28917abf03a649c37f/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/mohammedyasir/.gradle/caches/transforms-3/985e7d726d144a28917abf03a649c37f/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/mohammedyasir/.gradle/caches/transforms-3/985e7d726d144a28917abf03a649c37f/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/mohammedyasir/.gradle/caches/transforms-3/f1dc5d5000221fba917924cbe1b4bfb0/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/mohammedyasir/.gradle/caches/transforms-3/f1dc5d5000221fba917924cbe1b4bfb0/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/mohammedyasir/.gradle/caches/transforms-3/f1dc5d5000221fba917924cbe1b4bfb0/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/mohammedyasir/.gradle/caches/transforms-3/f1dc5d5000221fba917924cbe1b4bfb0/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/mohammedyasir/.gradle/caches/transforms-3/f1dc5d5000221fba917924cbe1b4bfb0/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/mohammedyasir/.gradle/caches/transforms-3/f1dc5d5000221fba917924cbe1b4bfb0/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/mohammedyasir/.gradle/caches/transforms-3/f1dc5d5000221fba917924cbe1b4bfb0/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
+uses-permission#com.sec.android.provider.badge.permission.READ
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/mohammedyasir/.gradle/caches/transforms-3/5d528540acb03f6c9ac29d6f8efb7ef8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/mohammedyasir/.gradle/caches/transforms-3/5d528540acb03f6c9ac29d6f8efb7ef8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
+uses-permission#com.sec.android.provider.badge.permission.WRITE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/mohammedyasir/.gradle/caches/transforms-3/5d528540acb03f6c9ac29d6f8efb7ef8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/mohammedyasir/.gradle/caches/transforms-3/5d528540acb03f6c9ac29d6f8efb7ef8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
+uses-permission#com.htc.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/mohammedyasir/.gradle/caches/transforms-3/5d528540acb03f6c9ac29d6f8efb7ef8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/mohammedyasir/.gradle/caches/transforms-3/5d528540acb03f6c9ac29d6f8efb7ef8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
+uses-permission#com.htc.launcher.permission.UPDATE_SHORTCUT
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/mohammedyasir/.gradle/caches/transforms-3/5d528540acb03f6c9ac29d6f8efb7ef8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/mohammedyasir/.gradle/caches/transforms-3/5d528540acb03f6c9ac29d6f8efb7ef8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
+uses-permission#com.sonyericsson.home.permission.BROADCAST_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/mohammedyasir/.gradle/caches/transforms-3/5d528540acb03f6c9ac29d6f8efb7ef8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/mohammedyasir/.gradle/caches/transforms-3/5d528540acb03f6c9ac29d6f8efb7ef8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
+uses-permission#com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/mohammedyasir/.gradle/caches/transforms-3/5d528540acb03f6c9ac29d6f8efb7ef8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/mohammedyasir/.gradle/caches/transforms-3/5d528540acb03f6c9ac29d6f8efb7ef8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
+uses-permission#com.anddoes.launcher.permission.UPDATE_COUNT
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/mohammedyasir/.gradle/caches/transforms-3/5d528540acb03f6c9ac29d6f8efb7ef8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/mohammedyasir/.gradle/caches/transforms-3/5d528540acb03f6c9ac29d6f8efb7ef8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
+uses-permission#com.majeur.launcher.permission.UPDATE_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/mohammedyasir/.gradle/caches/transforms-3/5d528540acb03f6c9ac29d6f8efb7ef8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/mohammedyasir/.gradle/caches/transforms-3/5d528540acb03f6c9ac29d6f8efb7ef8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
+uses-permission#com.huawei.android.launcher.permission.CHANGE_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/mohammedyasir/.gradle/caches/transforms-3/5d528540acb03f6c9ac29d6f8efb7ef8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/mohammedyasir/.gradle/caches/transforms-3/5d528540acb03f6c9ac29d6f8efb7ef8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
+uses-permission#com.huawei.android.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/mohammedyasir/.gradle/caches/transforms-3/5d528540acb03f6c9ac29d6f8efb7ef8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/mohammedyasir/.gradle/caches/transforms-3/5d528540acb03f6c9ac29d6f8efb7ef8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
+uses-permission#com.huawei.android.launcher.permission.WRITE_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/mohammedyasir/.gradle/caches/transforms-3/5d528540acb03f6c9ac29d6f8efb7ef8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/mohammedyasir/.gradle/caches/transforms-3/5d528540acb03f6c9ac29d6f8efb7ef8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
+uses-permission#android.permission.READ_APP_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/mohammedyasir/.gradle/caches/transforms-3/5d528540acb03f6c9ac29d6f8efb7ef8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/mohammedyasir/.gradle/caches/transforms-3/5d528540acb03f6c9ac29d6f8efb7ef8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
+uses-permission#com.oppo.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/mohammedyasir/.gradle/caches/transforms-3/5d528540acb03f6c9ac29d6f8efb7ef8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/mohammedyasir/.gradle/caches/transforms-3/5d528540acb03f6c9ac29d6f8efb7ef8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
+uses-permission#com.oppo.launcher.permission.WRITE_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/mohammedyasir/.gradle/caches/transforms-3/5d528540acb03f6c9ac29d6f8efb7ef8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/mohammedyasir/.gradle/caches/transforms-3/5d528540acb03f6c9ac29d6f8efb7ef8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
+uses-permission#me.everything.badger.permission.BADGE_COUNT_READ
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/mohammedyasir/.gradle/caches/transforms-3/5d528540acb03f6c9ac29d6f8efb7ef8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/mohammedyasir/.gradle/caches/transforms-3/5d528540acb03f6c9ac29d6f8efb7ef8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
+uses-permission#me.everything.badger.permission.BADGE_COUNT_WRITE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/mohammedyasir/.gradle/caches/transforms-3/5d528540acb03f6c9ac29d6f8efb7ef8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/mohammedyasir/.gradle/caches/transforms-3/5d528540acb03f6c9ac29d6f8efb7ef8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86

@@ -1,0 +1,431 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.chat"
+4    android:versionCode="1"
+5    android:versionName="4.2.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:4:5-67
+11-->/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:5:5-79
+12-->/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:5:22-76
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:6:5-80
+13-->/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:6:22-77
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:7:5-81
+14-->/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:7:22-78
+15
+16    <queries>
+16-->[:file_picker] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-17:15
+17        <intent>
+17-->[:file_picker] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:12:9-16:18
+18            <action android:name="android.intent.action.GET_CONTENT" />
+18-->[:file_picker] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-72
+18-->[:file_picker] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:13:21-69
+19
+20            <data android:mimeType="*/*" />
+20-->[:file_picker] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-44
+20-->[:file_picker] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:15:19-41
+21        </intent>
+22    </queries>
+23
+24    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+24-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-81
+24-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-78
+25    <uses-permission android:name="android.permission.VIBRATE" />
+25-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-66
+25-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-63
+26    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+26-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-81
+26-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:11:22-78
+27    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+27-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:12:5-79
+27-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:12:22-76
+28    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+28-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-77
+28-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:13:22-74
+29    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+29-->[com.google.firebase:firebase-messaging:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/c8e04040bc0a9f2abdd1c112bcefe992/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:24:5-68
+29-->[com.google.firebase:firebase-messaging:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/c8e04040bc0a9f2abdd1c112bcefe992/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:24:22-65
+30    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> <!-- for android -->
+30-->[com.google.firebase:firebase-messaging:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/c8e04040bc0a9f2abdd1c112bcefe992/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:26:5-82
+30-->[com.google.firebase:firebase-messaging:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/c8e04040bc0a9f2abdd1c112bcefe992/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:26:22-79
+31    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+32    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+33    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+34    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+35    <!-- for Samsung -->
+36    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+36-->[me.leolin:ShortcutBadger:1.1.22] /Users/mohammedyasir/.gradle/caches/transforms-3/5d528540acb03f6c9ac29d6f8efb7ef8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
+36-->[me.leolin:ShortcutBadger:1.1.22] /Users/mohammedyasir/.gradle/caches/transforms-3/5d528540acb03f6c9ac29d6f8efb7ef8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
+37    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+37-->[me.leolin:ShortcutBadger:1.1.22] /Users/mohammedyasir/.gradle/caches/transforms-3/5d528540acb03f6c9ac29d6f8efb7ef8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
+37-->[me.leolin:ShortcutBadger:1.1.22] /Users/mohammedyasir/.gradle/caches/transforms-3/5d528540acb03f6c9ac29d6f8efb7ef8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
+38    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+38-->[me.leolin:ShortcutBadger:1.1.22] /Users/mohammedyasir/.gradle/caches/transforms-3/5d528540acb03f6c9ac29d6f8efb7ef8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
+38-->[me.leolin:ShortcutBadger:1.1.22] /Users/mohammedyasir/.gradle/caches/transforms-3/5d528540acb03f6c9ac29d6f8efb7ef8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
+39    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+39-->[me.leolin:ShortcutBadger:1.1.22] /Users/mohammedyasir/.gradle/caches/transforms-3/5d528540acb03f6c9ac29d6f8efb7ef8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
+39-->[me.leolin:ShortcutBadger:1.1.22] /Users/mohammedyasir/.gradle/caches/transforms-3/5d528540acb03f6c9ac29d6f8efb7ef8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
+40    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+40-->[me.leolin:ShortcutBadger:1.1.22] /Users/mohammedyasir/.gradle/caches/transforms-3/5d528540acb03f6c9ac29d6f8efb7ef8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
+40-->[me.leolin:ShortcutBadger:1.1.22] /Users/mohammedyasir/.gradle/caches/transforms-3/5d528540acb03f6c9ac29d6f8efb7ef8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
+41    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+41-->[me.leolin:ShortcutBadger:1.1.22] /Users/mohammedyasir/.gradle/caches/transforms-3/5d528540acb03f6c9ac29d6f8efb7ef8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
+41-->[me.leolin:ShortcutBadger:1.1.22] /Users/mohammedyasir/.gradle/caches/transforms-3/5d528540acb03f6c9ac29d6f8efb7ef8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
+42    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+42-->[me.leolin:ShortcutBadger:1.1.22] /Users/mohammedyasir/.gradle/caches/transforms-3/5d528540acb03f6c9ac29d6f8efb7ef8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
+42-->[me.leolin:ShortcutBadger:1.1.22] /Users/mohammedyasir/.gradle/caches/transforms-3/5d528540acb03f6c9ac29d6f8efb7ef8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
+43    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+43-->[me.leolin:ShortcutBadger:1.1.22] /Users/mohammedyasir/.gradle/caches/transforms-3/5d528540acb03f6c9ac29d6f8efb7ef8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
+43-->[me.leolin:ShortcutBadger:1.1.22] /Users/mohammedyasir/.gradle/caches/transforms-3/5d528540acb03f6c9ac29d6f8efb7ef8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
+44    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+44-->[me.leolin:ShortcutBadger:1.1.22] /Users/mohammedyasir/.gradle/caches/transforms-3/5d528540acb03f6c9ac29d6f8efb7ef8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
+44-->[me.leolin:ShortcutBadger:1.1.22] /Users/mohammedyasir/.gradle/caches/transforms-3/5d528540acb03f6c9ac29d6f8efb7ef8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
+45    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+45-->[me.leolin:ShortcutBadger:1.1.22] /Users/mohammedyasir/.gradle/caches/transforms-3/5d528540acb03f6c9ac29d6f8efb7ef8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
+45-->[me.leolin:ShortcutBadger:1.1.22] /Users/mohammedyasir/.gradle/caches/transforms-3/5d528540acb03f6c9ac29d6f8efb7ef8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
+46    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+46-->[me.leolin:ShortcutBadger:1.1.22] /Users/mohammedyasir/.gradle/caches/transforms-3/5d528540acb03f6c9ac29d6f8efb7ef8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
+46-->[me.leolin:ShortcutBadger:1.1.22] /Users/mohammedyasir/.gradle/caches/transforms-3/5d528540acb03f6c9ac29d6f8efb7ef8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
+47    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+47-->[me.leolin:ShortcutBadger:1.1.22] /Users/mohammedyasir/.gradle/caches/transforms-3/5d528540acb03f6c9ac29d6f8efb7ef8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
+47-->[me.leolin:ShortcutBadger:1.1.22] /Users/mohammedyasir/.gradle/caches/transforms-3/5d528540acb03f6c9ac29d6f8efb7ef8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
+48    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+48-->[me.leolin:ShortcutBadger:1.1.22] /Users/mohammedyasir/.gradle/caches/transforms-3/5d528540acb03f6c9ac29d6f8efb7ef8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
+48-->[me.leolin:ShortcutBadger:1.1.22] /Users/mohammedyasir/.gradle/caches/transforms-3/5d528540acb03f6c9ac29d6f8efb7ef8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
+49    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+49-->[me.leolin:ShortcutBadger:1.1.22] /Users/mohammedyasir/.gradle/caches/transforms-3/5d528540acb03f6c9ac29d6f8efb7ef8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
+49-->[me.leolin:ShortcutBadger:1.1.22] /Users/mohammedyasir/.gradle/caches/transforms-3/5d528540acb03f6c9ac29d6f8efb7ef8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
+50    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+50-->[me.leolin:ShortcutBadger:1.1.22] /Users/mohammedyasir/.gradle/caches/transforms-3/5d528540acb03f6c9ac29d6f8efb7ef8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
+50-->[me.leolin:ShortcutBadger:1.1.22] /Users/mohammedyasir/.gradle/caches/transforms-3/5d528540acb03f6c9ac29d6f8efb7ef8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
+51    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+51-->[me.leolin:ShortcutBadger:1.1.22] /Users/mohammedyasir/.gradle/caches/transforms-3/5d528540acb03f6c9ac29d6f8efb7ef8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
+51-->[me.leolin:ShortcutBadger:1.1.22] /Users/mohammedyasir/.gradle/caches/transforms-3/5d528540acb03f6c9ac29d6f8efb7ef8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86
+52
+53    <application
+54        android:name="android.app.Application"
+54-->/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:10:9-42
+55        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+55-->[androidx.core:core:1.6.0] /Users/mohammedyasir/.gradle/caches/transforms-3/25e40e9ae6c849e71bc55eea7bccfa73/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+56        android:icon="@mipmap/ic_launcher"
+56-->/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:11:9-43
+57        android:label="Sendbird Chat Sample" >
+57-->/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:12:9-45
+58        <activity
+58-->/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:13:9-34:20
+59            android:name="com.chat.MainActivity"
+59-->/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:14:13-41
+60            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+60-->/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:15:13-163
+61            android:exported="true"
+61-->/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:16:13-36
+62            android:hardwareAccelerated="true"
+62-->/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:17:13-47
+63            android:launchMode="singleTop"
+63-->/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:18:13-43
+64            android:showWhenLocked="true"
+64-->/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:19:13-42
+65            android:theme="@style/LaunchTheme"
+65-->/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:20:13-47
+66            android:turnScreenOn="true"
+66-->/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:21:13-40
+67            android:windowSoftInputMode="adjustResize" > <!-- showWhenLocked and turnScreenOn for [flutter_local_notifications] -->
+67-->/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:22:13-55
+68            <!--
+69                 Specifies an Android theme to apply to this Activity as soon as
+70                 the Android process has started. This theme is visible to the user
+71                 while the Flutter UI initializes. After that, this theme continues
+72                 to determine the Window background behind the Flutter UI.
+73            -->
+74            <meta-data
+74-->/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:27:13-29:57
+75                android:name="io.flutter.embedding.android.NormalTheme"
+75-->/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:28:17-72
+76                android:resource="@style/NormalTheme" />
+76-->/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:29:17-54
+77
+78            <intent-filter>
+78-->/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:30:13-33:29
+79                <action android:name="android.intent.action.MAIN" />
+79-->/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:31:17-69
+79-->/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:31:25-66
+80
+81                <category android:name="android.intent.category.LAUNCHER" />
+81-->/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:32:17-77
+81-->/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:32:27-74
+82            </intent-filter>
+83        </activity>
+84        <!--
+85             Don't delete the meta-data below.
+86             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+87        -->
+88        <meta-data
+88-->/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:37:9-39:33
+89            android:name="flutterEmbedding"
+89-->/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:38:13-44
+90            android:value="2" />
+90-->/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:39:13-30
+91
+92        <service
+92-->[:firebase_core] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
+93            android:name="com.google.firebase.components.ComponentDiscoveryService"
+93-->[:firebase_core] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:10:18-89
+94            android:directBootAware="true"
+94-->[com.google.firebase:firebase-common:20.4.2] /Users/mohammedyasir/.gradle/caches/transforms-3/e3fe5034124f26bb86d0a873c961dbd7/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:32:13-43
+95            android:exported="false" >
+95-->[com.google.firebase:firebase-messaging-ktx:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/6d82433353857a8b96f9a5407e875bc4/transformed/jetified-firebase-messaging-ktx-23.3.1/AndroidManifest.xml:25:13-37
+96            <meta-data
+96-->[:firebase_core] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+97                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+97-->[:firebase_core] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+98                android:value="com.google.firebase.components.ComponentRegistrar" />
+98-->[:firebase_core] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+99            <meta-data
+99-->[com.google.firebase:firebase-messaging-ktx:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/6d82433353857a8b96f9a5407e875bc4/transformed/jetified-firebase-messaging-ktx-23.3.1/AndroidManifest.xml:26:13-28:85
+100                android:name="com.google.firebase.components:com.google.firebase.messaging.ktx.FirebaseMessagingLegacyRegistrar"
+100-->[com.google.firebase:firebase-messaging-ktx:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/6d82433353857a8b96f9a5407e875bc4/transformed/jetified-firebase-messaging-ktx-23.3.1/AndroidManifest.xml:27:17-129
+101                android:value="com.google.firebase.components.ComponentRegistrar" />
+101-->[com.google.firebase:firebase-messaging-ktx:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/6d82433353857a8b96f9a5407e875bc4/transformed/jetified-firebase-messaging-ktx-23.3.1/AndroidManifest.xml:28:17-82
+102            <meta-data
+102-->[com.google.firebase:firebase-messaging:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/c8e04040bc0a9f2abdd1c112bcefe992/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:57:13-59:85
+103                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar"
+103-->[com.google.firebase:firebase-messaging:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/c8e04040bc0a9f2abdd1c112bcefe992/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:58:17-122
+104                android:value="com.google.firebase.components.ComponentRegistrar" />
+104-->[com.google.firebase:firebase-messaging:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/c8e04040bc0a9f2abdd1c112bcefe992/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:59:17-82
+105            <meta-data
+105-->[com.google.firebase:firebase-messaging:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/c8e04040bc0a9f2abdd1c112bcefe992/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:60:13-62:85
+106                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+106-->[com.google.firebase:firebase-messaging:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/c8e04040bc0a9f2abdd1c112bcefe992/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:61:17-119
+107                android:value="com.google.firebase.components.ComponentRegistrar" />
+107-->[com.google.firebase:firebase-messaging:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/c8e04040bc0a9f2abdd1c112bcefe992/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:62:17-82
+108            <meta-data
+108-->[com.google.firebase:firebase-installations:17.2.0] /Users/mohammedyasir/.gradle/caches/transforms-3/267c61e5ef6dcf922436454714455756/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:15:13-17:85
+109                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+109-->[com.google.firebase:firebase-installations:17.2.0] /Users/mohammedyasir/.gradle/caches/transforms-3/267c61e5ef6dcf922436454714455756/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:16:17-130
+110                android:value="com.google.firebase.components.ComponentRegistrar" />
+110-->[com.google.firebase:firebase-installations:17.2.0] /Users/mohammedyasir/.gradle/caches/transforms-3/267c61e5ef6dcf922436454714455756/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:17:17-82
+111            <meta-data
+111-->[com.google.firebase:firebase-installations:17.2.0] /Users/mohammedyasir/.gradle/caches/transforms-3/267c61e5ef6dcf922436454714455756/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:18:13-20:85
+112                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+112-->[com.google.firebase:firebase-installations:17.2.0] /Users/mohammedyasir/.gradle/caches/transforms-3/267c61e5ef6dcf922436454714455756/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:19:17-127
+113                android:value="com.google.firebase.components.ComponentRegistrar" />
+113-->[com.google.firebase:firebase-installations:17.2.0] /Users/mohammedyasir/.gradle/caches/transforms-3/267c61e5ef6dcf922436454714455756/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:20:17-82
+114            <meta-data
+114-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/mohammedyasir/.gradle/caches/transforms-3/0fc409c31985cc11dbbd20e8c0f20c72/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:12:13-14:85
+115                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+115-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/mohammedyasir/.gradle/caches/transforms-3/0fc409c31985cc11dbbd20e8c0f20c72/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:13:17-116
+116                android:value="com.google.firebase.components.ComponentRegistrar" />
+116-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/mohammedyasir/.gradle/caches/transforms-3/0fc409c31985cc11dbbd20e8c0f20c72/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:14:17-82
+117            <meta-data
+117-->[com.google.firebase:firebase-common:20.4.2] /Users/mohammedyasir/.gradle/caches/transforms-3/e3fe5034124f26bb86d0a873c961dbd7/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:35:13-37:85
+118                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+118-->[com.google.firebase:firebase-common:20.4.2] /Users/mohammedyasir/.gradle/caches/transforms-3/e3fe5034124f26bb86d0a873c961dbd7/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:36:17-109
+119                android:value="com.google.firebase.components.ComponentRegistrar" />
+119-->[com.google.firebase:firebase-common:20.4.2] /Users/mohammedyasir/.gradle/caches/transforms-3/e3fe5034124f26bb86d0a873c961dbd7/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:37:17-82
+120            <meta-data
+120-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/mohammedyasir/.gradle/caches/transforms-3/f03eb9a55a1c0d9db6f091223e18536f/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:27:13-29:85
+121                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+121-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/mohammedyasir/.gradle/caches/transforms-3/f03eb9a55a1c0d9db6f091223e18536f/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:28:17-115
+122                android:value="com.google.firebase.components.ComponentRegistrar" />
+122-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/mohammedyasir/.gradle/caches/transforms-3/f03eb9a55a1c0d9db6f091223e18536f/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:29:17-82
+123        </service>
+124
+125        <receiver
+125-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-18:40
+126            android:name="com.dexterous.flutterlocalnotifications.ActionBroadcastReceiver"
+126-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-91
+127            android:exported="false" />
+127-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
+128        <receiver
+128-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:19:9-21:40
+129            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+129-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-97
+130            android:exported="false" />
+130-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-37
+131        <receiver
+131-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:22:9-31:20
+132            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+132-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-101
+133            android:exported="false" >
+133-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-37
+134            <intent-filter>
+134-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:25:13-30:29
+135                <action android:name="android.intent.action.BOOT_COMPLETED" />
+135-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:26:17-79
+135-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:26:25-76
+136                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+136-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:27:17-84
+136-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:27:25-81
+137                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+137-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:28:17-82
+137-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:28:25-79
+138                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+138-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:29:17-82
+138-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:29:25-79
+139            </intent-filter>
+140        </receiver>
+141        <receiver
+141-->[:push_android] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:9-19:20
+142            android:name="uk.orth.push.FirebaseMessagingReceiver"
+142-->[:push_android] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-66
+143            android:exported="true"
+143-->[:push_android] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-36
+144            android:permission="com.google.android.c2dm.permission.SEND" >
+144-->[:push_android] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-73
+145            <intent-filter>
+145-->[:push_android] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-18:29
+146                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+146-->[:push_android] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-81
+146-->[:push_android] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:17:25-78
+147            </intent-filter>
+148        </receiver>
+149
+150        <service
+150-->[:push_android] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:21:9-27:19
+151            android:name="uk.orth.push.MessagingService"
+151-->[:push_android] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-57
+152            android:exported="false" >
+152-->[:push_android] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-37
+153            <intent-filter>
+153-->[:push_android] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-26:29
+154                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+154-->[:push_android] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:25:17-78
+154-->[:push_android] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:25:25-75
+155            </intent-filter>
+156        </service>
+157
+158        <receiver
+158-->[com.google.firebase:firebase-messaging:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/c8e04040bc0a9f2abdd1c112bcefe992/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:29:9-40:20
+159            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+159-->[com.google.firebase:firebase-messaging:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/c8e04040bc0a9f2abdd1c112bcefe992/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:30:13-78
+160            android:exported="true"
+160-->[com.google.firebase:firebase-messaging:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/c8e04040bc0a9f2abdd1c112bcefe992/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:31:13-36
+161            android:permission="com.google.android.c2dm.permission.SEND" >
+161-->[com.google.firebase:firebase-messaging:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/c8e04040bc0a9f2abdd1c112bcefe992/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:32:13-73
+162            <intent-filter>
+162-->[:push_android] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-18:29
+163                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+163-->[:push_android] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-81
+163-->[:push_android] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:17:25-78
+164            </intent-filter>
+165
+166            <meta-data
+166-->[com.google.firebase:firebase-messaging:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/c8e04040bc0a9f2abdd1c112bcefe992/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:37:13-39:40
+167                android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED"
+167-->[com.google.firebase:firebase-messaging:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/c8e04040bc0a9f2abdd1c112bcefe992/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:38:17-92
+168                android:value="true" />
+168-->[com.google.firebase:firebase-messaging:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/c8e04040bc0a9f2abdd1c112bcefe992/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:39:17-37
+169        </receiver>
+170        <!--
+171             FirebaseMessagingService performs security checks at runtime,
+172             but set to not exported to explicitly avoid allowing another app to call it.
+173        -->
+174        <service
+174-->[com.google.firebase:firebase-messaging:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/c8e04040bc0a9f2abdd1c112bcefe992/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:46:9-53:19
+175            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+175-->[com.google.firebase:firebase-messaging:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/c8e04040bc0a9f2abdd1c112bcefe992/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:47:13-82
+176            android:directBootAware="true"
+176-->[com.google.firebase:firebase-messaging:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/c8e04040bc0a9f2abdd1c112bcefe992/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:48:13-43
+177            android:exported="false" >
+177-->[com.google.firebase:firebase-messaging:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/c8e04040bc0a9f2abdd1c112bcefe992/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:49:13-37
+178            <intent-filter android:priority="-500" >
+178-->[:push_android] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-26:29
+179                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+179-->[:push_android] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:25:17-78
+179-->[:push_android] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:25:25-75
+180            </intent-filter>
+181        </service>
+182
+183        <provider
+183-->[com.google.firebase:firebase-common:20.4.2] /Users/mohammedyasir/.gradle/caches/transforms-3/e3fe5034124f26bb86d0a873c961dbd7/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:23:9-28:39
+184            android:name="com.google.firebase.provider.FirebaseInitProvider"
+184-->[com.google.firebase:firebase-common:20.4.2] /Users/mohammedyasir/.gradle/caches/transforms-3/e3fe5034124f26bb86d0a873c961dbd7/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:24:13-77
+185            android:authorities="com.chat.firebaseinitprovider"
+185-->[com.google.firebase:firebase-common:20.4.2] /Users/mohammedyasir/.gradle/caches/transforms-3/e3fe5034124f26bb86d0a873c961dbd7/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:25:13-72
+186            android:directBootAware="true"
+186-->[com.google.firebase:firebase-common:20.4.2] /Users/mohammedyasir/.gradle/caches/transforms-3/e3fe5034124f26bb86d0a873c961dbd7/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:26:13-43
+187            android:exported="false"
+187-->[com.google.firebase:firebase-common:20.4.2] /Users/mohammedyasir/.gradle/caches/transforms-3/e3fe5034124f26bb86d0a873c961dbd7/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:27:13-37
+188            android:initOrder="100" />
+188-->[com.google.firebase:firebase-common:20.4.2] /Users/mohammedyasir/.gradle/caches/transforms-3/e3fe5034124f26bb86d0a873c961dbd7/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:28:13-36
+189
+190        <uses-library
+190-->[androidx.window:window:1.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/98d81c25d0eed547d40066e00fb2e181/transformed/jetified-window-1.0.0/AndroidManifest.xml:25:9-27:40
+191            android:name="androidx.window.extensions"
+191-->[androidx.window:window:1.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/98d81c25d0eed547d40066e00fb2e181/transformed/jetified-window-1.0.0/AndroidManifest.xml:26:13-54
+192            android:required="false" />
+192-->[androidx.window:window:1.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/98d81c25d0eed547d40066e00fb2e181/transformed/jetified-window-1.0.0/AndroidManifest.xml:27:13-37
+193        <uses-library
+193-->[androidx.window:window:1.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/98d81c25d0eed547d40066e00fb2e181/transformed/jetified-window-1.0.0/AndroidManifest.xml:28:9-30:40
+194            android:name="androidx.window.sidecar"
+194-->[androidx.window:window:1.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/98d81c25d0eed547d40066e00fb2e181/transformed/jetified-window-1.0.0/AndroidManifest.xml:29:13-51
+195            android:required="false" />
+195-->[androidx.window:window:1.0.0] /Users/mohammedyasir/.gradle/caches/transforms-3/98d81c25d0eed547d40066e00fb2e181/transformed/jetified-window-1.0.0/AndroidManifest.xml:30:13-37
+196
+197        <provider
+197-->[androidx.startup:startup-runtime:1.1.1] /Users/mohammedyasir/.gradle/caches/transforms-3/45a49a89c943ab953313b32faa24ffc9/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+198            android:name="androidx.startup.InitializationProvider"
+198-->[androidx.startup:startup-runtime:1.1.1] /Users/mohammedyasir/.gradle/caches/transforms-3/45a49a89c943ab953313b32faa24ffc9/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:27:13-67
+199            android:authorities="com.chat.androidx-startup"
+199-->[androidx.startup:startup-runtime:1.1.1] /Users/mohammedyasir/.gradle/caches/transforms-3/45a49a89c943ab953313b32faa24ffc9/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:28:13-68
+200            android:exported="false" />
+200-->[androidx.startup:startup-runtime:1.1.1] /Users/mohammedyasir/.gradle/caches/transforms-3/45a49a89c943ab953313b32faa24ffc9/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:29:13-37
+201
+202        <activity
+202-->[com.google.android.gms:play-services-base:18.0.1] /Users/mohammedyasir/.gradle/caches/transforms-3/edcb68729614718a4fe620b8418b467b/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+203            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+203-->[com.google.android.gms:play-services-base:18.0.1] /Users/mohammedyasir/.gradle/caches/transforms-3/edcb68729614718a4fe620b8418b467b/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+204            android:exported="false"
+204-->[com.google.android.gms:play-services-base:18.0.1] /Users/mohammedyasir/.gradle/caches/transforms-3/edcb68729614718a4fe620b8418b467b/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+205            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+205-->[com.google.android.gms:play-services-base:18.0.1] /Users/mohammedyasir/.gradle/caches/transforms-3/edcb68729614718a4fe620b8418b467b/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+206
+207        <meta-data
+207-->[com.google.android.gms:play-services-basement:18.1.0] /Users/mohammedyasir/.gradle/caches/transforms-3/9b317b22b35e8b3cbd542c0a3d802eb3/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+208            android:name="com.google.android.gms.version"
+208-->[com.google.android.gms:play-services-basement:18.1.0] /Users/mohammedyasir/.gradle/caches/transforms-3/9b317b22b35e8b3cbd542c0a3d802eb3/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+209            android:value="@integer/google_play_services_version" />
+209-->[com.google.android.gms:play-services-basement:18.1.0] /Users/mohammedyasir/.gradle/caches/transforms-3/9b317b22b35e8b3cbd542c0a3d802eb3/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+210
+211        <service
+211-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/mohammedyasir/.gradle/caches/transforms-3/985e7d726d144a28917abf03a649c37f/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+212            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+212-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/mohammedyasir/.gradle/caches/transforms-3/985e7d726d144a28917abf03a649c37f/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+213            android:exported="false" >
+213-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/mohammedyasir/.gradle/caches/transforms-3/985e7d726d144a28917abf03a649c37f/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+214            <meta-data
+214-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/mohammedyasir/.gradle/caches/transforms-3/985e7d726d144a28917abf03a649c37f/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+215                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+215-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/mohammedyasir/.gradle/caches/transforms-3/985e7d726d144a28917abf03a649c37f/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+216                android:value="cct" />
+216-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/mohammedyasir/.gradle/caches/transforms-3/985e7d726d144a28917abf03a649c37f/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+217        </service>
+218        <service
+218-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/mohammedyasir/.gradle/caches/transforms-3/f1dc5d5000221fba917924cbe1b4bfb0/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+219            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+219-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/mohammedyasir/.gradle/caches/transforms-3/f1dc5d5000221fba917924cbe1b4bfb0/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+220            android:exported="false"
+220-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/mohammedyasir/.gradle/caches/transforms-3/f1dc5d5000221fba917924cbe1b4bfb0/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+221            android:permission="android.permission.BIND_JOB_SERVICE" >
+221-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/mohammedyasir/.gradle/caches/transforms-3/f1dc5d5000221fba917924cbe1b4bfb0/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+222        </service>
+223
+224        <receiver
+224-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/mohammedyasir/.gradle/caches/transforms-3/f1dc5d5000221fba917924cbe1b4bfb0/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+225            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+225-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/mohammedyasir/.gradle/caches/transforms-3/f1dc5d5000221fba917924cbe1b4bfb0/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
+226            android:exported="false" />
+226-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/mohammedyasir/.gradle/caches/transforms-3/f1dc5d5000221fba917924cbe1b4bfb0/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+227    </application>
+228
+229</manifest>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1043637353404",
+    "project_id": "chat-3a5fa",
+    "storage_bucket": "chat-3a5fa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1043637353404:android:165645a035f85531c749b9",
+        "android_client_info": {
+          "package_name": "com.chat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUcKWtEJMCkuL1E5lA8EjJvXeqadE40jA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1043637353404:android:94ee9e4470316ca7c749b9",
+        "android_client_info": {
+          "package_name": "com.sendbird.chat.sample.flutter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUcKWtEJMCkuL1E5lA8EjJvXeqadE40jA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

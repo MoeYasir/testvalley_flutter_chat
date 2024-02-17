@@ -1,0 +1,14 @@
+io.flutter.plugins.firebase.core.firebase_core-jetified-window-java-1.0.0-beta04-0 /Users/mohammedyasir/.gradle/caches/transforms-3/0feb25f5f6f986807b556430da6875f6/transformed/jetified-window-java-1.0.0-beta04/res
+io.flutter.plugins.firebase.core.firebase_core-jetified-annotation-experimental-1.1.0-1 /Users/mohammedyasir/.gradle/caches/transforms-3/2180de8b8002fb294a684bb5be7642d6/transformed/jetified-annotation-experimental-1.1.0/res
+io.flutter.plugins.firebase.core.firebase_core-core-1.6.0-2 /Users/mohammedyasir/.gradle/caches/transforms-3/25e40e9ae6c849e71bc55eea7bccfa73/transformed/core-1.6.0/res
+io.flutter.plugins.firebase.core.firebase_core-jetified-window-1.0.0-beta04-3 /Users/mohammedyasir/.gradle/caches/transforms-3/87b89d164bee9476a6fcbdceab00e7d1/transformed/jetified-window-1.0.0-beta04/res
+io.flutter.plugins.firebase.core.firebase_core-jetified-play-services-basement-18.1.0-4 /Users/mohammedyasir/.gradle/caches/transforms-3/9b317b22b35e8b3cbd542c0a3d802eb3/transformed/jetified-play-services-basement-18.1.0/res
+io.flutter.plugins.firebase.core.firebase_core-jetified-firebase-common-20.4.2-5 /Users/mohammedyasir/.gradle/caches/transforms-3/e3fe5034124f26bb86d0a873c961dbd7/transformed/jetified-firebase-common-20.4.2/res
+io.flutter.plugins.firebase.core.firebase_core-main-6 /Users/mohammedyasir/.pub-cache/hosted/pub.dev/firebase_core-2.24.2/android/src/main/res
+io.flutter.plugins.firebase.core.firebase_core-release-7 /Users/mohammedyasir/.pub-cache/hosted/pub.dev/firebase_core-2.24.2/android/src/release/res
+io.flutter.plugins.firebase.core.firebase_core-pngs-8 /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/firebase_core/generated/res/pngs/release
+io.flutter.plugins.firebase.core.firebase_core-resValues-9 /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/firebase_core/generated/res/resValues/release
+io.flutter.plugins.firebase.core.firebase_core-rs-10 /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/firebase_core/generated/res/rs/release
+io.flutter.plugins.firebase.core.firebase_core-mergeReleaseResources-11 /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/firebase_core/intermediates/incremental/release/mergeReleaseResources/merged.dir
+io.flutter.plugins.firebase.core.firebase_core-mergeReleaseResources-12 /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/firebase_core/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+io.flutter.plugins.firebase.core.firebase_core-merged_res-13 /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/firebase_core/intermediates/merged_res/release
