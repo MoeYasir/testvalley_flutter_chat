@@ -4,9 +4,9 @@ io.github.ponnamkarthik.toast.fluttertoast-core-1.6.0-2 /Users/mohammedyasir/.gr
 io.github.ponnamkarthik.toast.fluttertoast-jetified-window-1.0.0-beta04-3 /Users/mohammedyasir/.gradle/caches/transforms-3/87b89d164bee9476a6fcbdceab00e7d1/transformed/jetified-window-1.0.0-beta04/res
 io.github.ponnamkarthik.toast.fluttertoast-main-4 /Users/mohammedyasir/.pub-cache/hosted/pub.dev/fluttertoast-8.2.2/android/src/main/res
 io.github.ponnamkarthik.toast.fluttertoast-release-5 /Users/mohammedyasir/.pub-cache/hosted/pub.dev/fluttertoast-8.2.2/android/src/release/res
-io.github.ponnamkarthik.toast.fluttertoast-pngs-6 /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/fluttertoast/generated/res/pngs/release
-io.github.ponnamkarthik.toast.fluttertoast-resValues-7 /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/fluttertoast/generated/res/resValues/release
-io.github.ponnamkarthik.toast.fluttertoast-rs-8 /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/fluttertoast/generated/res/rs/release
-io.github.ponnamkarthik.toast.fluttertoast-mergeReleaseResources-9 /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/fluttertoast/intermediates/incremental/release/mergeReleaseResources/merged.dir
-io.github.ponnamkarthik.toast.fluttertoast-mergeReleaseResources-10 /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/fluttertoast/intermediates/incremental/release/mergeReleaseResources/stripped.dir
-io.github.ponnamkarthik.toast.fluttertoast-merged_res-11 /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/fluttertoast/intermediates/merged_res/release
+io.github.ponnamkarthik.toast.fluttertoast-pngs-6 /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/fluttertoast/generated/res/pngs/release
+io.github.ponnamkarthik.toast.fluttertoast-resValues-7 /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/fluttertoast/generated/res/resValues/release
+io.github.ponnamkarthik.toast.fluttertoast-rs-8 /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/fluttertoast/generated/res/rs/release
+io.github.ponnamkarthik.toast.fluttertoast-mergeReleaseResources-9 /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/fluttertoast/intermediates/incremental/release/mergeReleaseResources/merged.dir
+io.github.ponnamkarthik.toast.fluttertoast-mergeReleaseResources-10 /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/fluttertoast/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+io.github.ponnamkarthik.toast.fluttertoast-merged_res-11 /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/fluttertoast/intermediates/merged_res/release

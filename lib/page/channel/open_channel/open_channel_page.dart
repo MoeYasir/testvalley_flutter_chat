@@ -403,40 +403,57 @@ class MessageListItem extends StatelessWidget {
                       width: 5,
                     ),
                     Flexible(
-                      child: Container(
-                        padding: const EdgeInsets.all(12.0),
-                        decoration: BoxDecoration(
-                          color: messageColor,
-                          borderRadius: BorderRadius.only(
-                              topRight: Radius.circular(20),
-                              bottomLeft: Radius.circular(20),
-                              bottomRight: Radius.circular(20)),
-                        ),
-                        child: Padding(
-                          padding: const EdgeInsets.only(left: 8.0),
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Text(
-                                message.sender!.userId,
-                                style: TextStyle(
-                                  color: Colors.grey,
-                                  fontSize: 12.0,
-                                ),
+                      child: Row(
+                        crossAxisAlignment: CrossAxisAlignment.end,
+                        children: [
+                          Container(
+                            padding: const EdgeInsets.all(12),
+                            decoration: BoxDecoration(
+                              color: messageColor,
+                              borderRadius: BorderRadius.only(
+                                  topRight: Radius.circular(20),
+                                  bottomLeft: Radius.circular(20),
+                                  bottomRight: Radius.circular(20)),
+                            ),
+                            child: Padding(
+                              padding: const EdgeInsets.only(left: 8.0),
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  Text(
+                                    message.sender!.userId,
+                                    style: TextStyle(
+                                      color: Colors.grey,
+                                      fontSize: 12.0,
+                                    ),
+                                  ),
+                                  SizedBox(
+                                    height: 5,
+                                  ),
+                                  Text(
+                                    message.message,
+                                    style: TextStyle(
+                                      color: textColor,
+                                      fontWeight: FontWeight.bold,
+                                    ),
+                                  ),
+                                ],
                               ),
-                              SizedBox(
-                                height: 5,
-                              ),
-                              Text(
-                                message.message,
-                                style: TextStyle(
-                                  color: textColor,
-                                  fontWeight: FontWeight.bold,
-                                ),
-                              ),
-                            ],
+                            ),
                           ),
-                        ),
+                          Container(
+                            margin: const EdgeInsets.only(left: 16),
+                            alignment: Alignment.centerRight,
+                            child: Text(
+                              DateTime.fromMillisecondsSinceEpoch(
+                                      message.createdAt)
+                                  .toString()
+                                  .substring(10, 16),
+                              style: const TextStyle(
+                                  color: Colors.white, fontSize: 12.0),
+                            ),
+                          ),
+                        ],
                       ),
                     ),
                   ],

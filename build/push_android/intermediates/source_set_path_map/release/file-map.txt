@@ -6,9 +6,9 @@ uk.orth.push.push_android-jetified-firebase-messaging-23.0.0-4 /Users/mohammedya
 uk.orth.push.push_android-jetified-window-1.0.0-beta04-5 /Users/mohammedyasir/.gradle/caches/transforms-3/87b89d164bee9476a6fcbdceab00e7d1/transformed/jetified-window-1.0.0-beta04/res
 uk.orth.push.push_android-main-6 /Users/mohammedyasir/.pub-cache/hosted/pub.dev/push_android-0.1.1/android/src/main/res
 uk.orth.push.push_android-release-7 /Users/mohammedyasir/.pub-cache/hosted/pub.dev/push_android-0.1.1/android/src/release/res
-uk.orth.push.push_android-pngs-8 /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/push_android/generated/res/pngs/release
-uk.orth.push.push_android-resValues-9 /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/push_android/generated/res/resValues/release
-uk.orth.push.push_android-rs-10 /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/push_android/generated/res/rs/release
-uk.orth.push.push_android-mergeReleaseResources-11 /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/push_android/intermediates/incremental/release/mergeReleaseResources/merged.dir
-uk.orth.push.push_android-mergeReleaseResources-12 /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/push_android/intermediates/incremental/release/mergeReleaseResources/stripped.dir
-uk.orth.push.push_android-merged_res-13 /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/push_android/intermediates/merged_res/release
+uk.orth.push.push_android-pngs-8 /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/push_android/generated/res/pngs/release
+uk.orth.push.push_android-resValues-9 /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/push_android/generated/res/resValues/release
+uk.orth.push.push_android-rs-10 /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/push_android/generated/res/rs/release
+uk.orth.push.push_android-mergeReleaseResources-11 /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/push_android/intermediates/incremental/release/mergeReleaseResources/merged.dir
+uk.orth.push.push_android-mergeReleaseResources-12 /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/push_android/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+uk.orth.push.push_android-merged_res-13 /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/push_android/intermediates/merged_res/release

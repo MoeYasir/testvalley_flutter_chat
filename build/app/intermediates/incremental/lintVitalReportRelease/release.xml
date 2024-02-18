@@ -4,10 +4,10 @@
     minSdkVersion="19"
     targetSdkVersion="33"
     shrinking="true"
-    mergedManifest="/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/app/intermediates/merged_manifest/release/AndroidManifest.xml"
-    manifestMergeReport="/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/app/outputs/logs/manifest-merger-release-report.txt"
-    proguardFiles="/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/app/intermediates/default_proguard_files/global/proguard-android.txt-7.2.0:/Users/mohammedyasir/FlutterSrc/flutter/packages/flutter_tools/gradle/flutter_proguard_rules.pro:proguard-rules.pro"
-    partialResultsDir="/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/app/intermediates/lint_vital_partial_results/release/out">
+    mergedManifest="/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/app/intermediates/merged_manifest/release/AndroidManifest.xml"
+    manifestMergeReport="/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/app/outputs/logs/manifest-merger-release-report.txt"
+    proguardFiles="/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/app/intermediates/default_proguard_files/global/proguard-android.txt-7.2.0:/Users/mohammedyasir/FlutterSrc/flutter/packages/flutter_tools/gradle/flutter_proguard_rules.pro:proguard-rules.pro"
+    partialResultsDir="/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/app/intermediates/lint_vital_partial_results/release/out">
   <buildFeatures
       namespacing="REQUIRED"/>
   <sourceProviders>
@@ -32,9 +32,9 @@
         value="android.app.Application" />
   </manifestPlaceholders>
   <mainArtifact
-      classOutputs="/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/app/intermediates/javac/release/classes:/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/app/tmp/kotlin-classes/release:/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/app/kotlinToolingMetadata:/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/app/intermediates/compile_and_runtime_not_namespaced_r_class_jar/release/R.jar"
+      classOutputs="/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/app/intermediates/javac/release/classes:/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/app/tmp/kotlin-classes/release:/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/app/kotlinToolingMetadata:/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/app/intermediates/compile_and_runtime_not_namespaced_r_class_jar/release/R.jar"
       applicationId="com.chat"
-      generatedSourceFolders="/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/app/generated/source/buildConfig/release:/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/app/generated/aidl_source_output_dir/release/out:/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/app/generated/renderscript_source_output_dir/release/out:/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/app/generated/ap_generated_sources/release/out"
-      generatedResourceFolders="/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/app/generated/res/google-services/release:/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/app/generated/res/rs/release:/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/app/generated/res/resValues/release">
+      generatedSourceFolders="/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/app/generated/source/buildConfig/release:/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/app/generated/aidl_source_output_dir/release/out:/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/app/generated/renderscript_source_output_dir/release/out:/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/app/generated/ap_generated_sources/release/out"
+      generatedResourceFolders="/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/app/generated/res/google-services/release:/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/app/generated/res/rs/release:/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/app/generated/res/resValues/release">
   </mainArtifact>
 </variant>

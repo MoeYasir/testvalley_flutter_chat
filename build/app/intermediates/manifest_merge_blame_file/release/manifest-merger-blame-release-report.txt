@@ -6,52 +6,52 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="19"
-8-->/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml
+8-->/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/android/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="33" />
-9-->/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml
+9-->/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/android/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:4:5-67
-11-->/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:4:22-64
+11-->/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/android/app/src/main/AndroidManifest.xml:4:5-67
+11-->/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/android/app/src/main/AndroidManifest.xml:4:22-64
 12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-12-->/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:5:5-79
-12-->/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:5:22-76
+12-->/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/android/app/src/main/AndroidManifest.xml:5:5-79
+12-->/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/android/app/src/main/AndroidManifest.xml:5:22-76
 13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-13-->/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:6:5-80
-13-->/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:6:22-77
+13-->/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/android/app/src/main/AndroidManifest.xml:6:5-80
+13-->/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/android/app/src/main/AndroidManifest.xml:6:22-77
 14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-14-->/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:7:5-81
-14-->/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:7:22-78
+14-->/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/android/app/src/main/AndroidManifest.xml:7:5-81
+14-->/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/android/app/src/main/AndroidManifest.xml:7:22-78
 15
 16    <queries>
-16-->[:file_picker] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-17:15
+16-->[:file_picker] /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-17:15
 17        <intent>
-17-->[:file_picker] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:12:9-16:18
+17-->[:file_picker] /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:12:9-16:18
 18            <action android:name="android.intent.action.GET_CONTENT" />
-18-->[:file_picker] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-72
-18-->[:file_picker] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:13:21-69
+18-->[:file_picker] /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-72
+18-->[:file_picker] /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:13:21-69
 19
 20            <data android:mimeType="*/*" />
-20-->[:file_picker] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-44
-20-->[:file_picker] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:15:19-41
+20-->[:file_picker] /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-44
+20-->[:file_picker] /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:15:19-41
 21        </intent>
 22    </queries>
 23
 24    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-24-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-81
-24-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-78
+24-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-81
+24-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-78
 25    <uses-permission android:name="android.permission.VIBRATE" />
-25-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-66
-25-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-63
+25-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-66
+25-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-63
 26    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
-26-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-81
-26-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:11:22-78
+26-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-81
+26-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:11:22-78
 27    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
-27-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:12:5-79
-27-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:12:22-76
+27-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:12:5-79
+27-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:12:22-76
 28    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
-28-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-77
-28-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:13:22-74
+28-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-77
+28-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:13:22-74
 29    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
 29-->[com.google.firebase:firebase-messaging:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/c8e04040bc0a9f2abdd1c112bcefe992/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:24:5-68
 29-->[com.google.firebase:firebase-messaging:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/c8e04040bc0a9f2abdd1c112bcefe992/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:24:22-65
@@ -114,33 +114,33 @@
 52
 53    <application
 54        android:name="android.app.Application"
-54-->/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:10:9-42
+54-->/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/android/app/src/main/AndroidManifest.xml:10:9-42
 55        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 55-->[androidx.core:core:1.6.0] /Users/mohammedyasir/.gradle/caches/transforms-3/25e40e9ae6c849e71bc55eea7bccfa73/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
 56        android:icon="@mipmap/ic_launcher"
-56-->/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:11:9-43
+56-->/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/android/app/src/main/AndroidManifest.xml:11:9-43
 57        android:label="Sendbird Chat Sample" >
-57-->/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:12:9-45
+57-->/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/android/app/src/main/AndroidManifest.xml:12:9-45
 58        <activity
-58-->/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:13:9-34:20
+58-->/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/android/app/src/main/AndroidManifest.xml:13:9-34:20
 59            android:name="com.chat.MainActivity"
-59-->/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:14:13-41
+59-->/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/android/app/src/main/AndroidManifest.xml:14:13-41
 60            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-60-->/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:15:13-163
+60-->/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/android/app/src/main/AndroidManifest.xml:15:13-163
 61            android:exported="true"
-61-->/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:16:13-36
+61-->/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/android/app/src/main/AndroidManifest.xml:16:13-36
 62            android:hardwareAccelerated="true"
-62-->/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:17:13-47
+62-->/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/android/app/src/main/AndroidManifest.xml:17:13-47
 63            android:launchMode="singleTop"
-63-->/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:18:13-43
+63-->/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/android/app/src/main/AndroidManifest.xml:18:13-43
 64            android:showWhenLocked="true"
-64-->/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:19:13-42
+64-->/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/android/app/src/main/AndroidManifest.xml:19:13-42
 65            android:theme="@style/LaunchTheme"
-65-->/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:20:13-47
+65-->/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/android/app/src/main/AndroidManifest.xml:20:13-47
 66            android:turnScreenOn="true"
-66-->/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:21:13-40
+66-->/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/android/app/src/main/AndroidManifest.xml:21:13-40
 67            android:windowSoftInputMode="adjustResize" > <!-- showWhenLocked and turnScreenOn for [flutter_local_notifications] -->
-67-->/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:22:13-55
+67-->/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/android/app/src/main/AndroidManifest.xml:22:13-55
 68            <!--
 69                 Specifies an Android theme to apply to this Activity as soon as
 70                 the Android process has started. This theme is visible to the user
@@ -148,21 +148,21 @@
 72                 to determine the Window background behind the Flutter UI.
 73            -->
 74            <meta-data
-74-->/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:27:13-29:57
+74-->/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/android/app/src/main/AndroidManifest.xml:27:13-29:57
 75                android:name="io.flutter.embedding.android.NormalTheme"
-75-->/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:28:17-72
+75-->/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/android/app/src/main/AndroidManifest.xml:28:17-72
 76                android:resource="@style/NormalTheme" />
-76-->/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:29:17-54
+76-->/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/android/app/src/main/AndroidManifest.xml:29:17-54
 77
 78            <intent-filter>
-78-->/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:30:13-33:29
+78-->/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/android/app/src/main/AndroidManifest.xml:30:13-33:29
 79                <action android:name="android.intent.action.MAIN" />
-79-->/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:31:17-69
-79-->/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:31:25-66
+79-->/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/android/app/src/main/AndroidManifest.xml:31:17-69
+79-->/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/android/app/src/main/AndroidManifest.xml:31:25-66
 80
 81                <category android:name="android.intent.category.LAUNCHER" />
-81-->/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:32:17-77
-81-->/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:32:27-74
+81-->/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/android/app/src/main/AndroidManifest.xml:32:17-77
+81-->/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/android/app/src/main/AndroidManifest.xml:32:27-74
 82            </intent-filter>
 83        </activity>
 84        <!--
@@ -170,26 +170,26 @@
 86             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
 87        -->
 88        <meta-data
-88-->/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:37:9-39:33
+88-->/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/android/app/src/main/AndroidManifest.xml:37:9-39:33
 89            android:name="flutterEmbedding"
-89-->/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:38:13-44
+89-->/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/android/app/src/main/AndroidManifest.xml:38:13-44
 90            android:value="2" />
-90-->/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android/app/src/main/AndroidManifest.xml:39:13-30
+90-->/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/android/app/src/main/AndroidManifest.xml:39:13-30
 91
 92        <service
-92-->[:firebase_core] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
+92-->[:firebase_core] /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
 93            android:name="com.google.firebase.components.ComponentDiscoveryService"
-93-->[:firebase_core] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:10:18-89
+93-->[:firebase_core] /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:10:18-89
 94            android:directBootAware="true"
 94-->[com.google.firebase:firebase-common:20.4.2] /Users/mohammedyasir/.gradle/caches/transforms-3/e3fe5034124f26bb86d0a873c961dbd7/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:32:13-43
 95            android:exported="false" >
 95-->[com.google.firebase:firebase-messaging-ktx:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/6d82433353857a8b96f9a5407e875bc4/transformed/jetified-firebase-messaging-ktx-23.3.1/AndroidManifest.xml:25:13-37
 96            <meta-data
-96-->[:firebase_core] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+96-->[:firebase_core] /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
 97                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
-97-->[:firebase_core] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+97-->[:firebase_core] /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
 98                android:value="com.google.firebase.components.ComponentRegistrar" />
-98-->[:firebase_core] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+98-->[:firebase_core] /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
 99            <meta-data
 99-->[com.google.firebase:firebase-messaging-ktx:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/6d82433353857a8b96f9a5407e875bc4/transformed/jetified-firebase-messaging-ktx-23.3.1/AndroidManifest.xml:26:13-28:85
 100                android:name="com.google.firebase.components:com.google.firebase.messaging.ktx.FirebaseMessagingLegacyRegistrar"
@@ -241,66 +241,66 @@
 123        </service>
 124
 125        <receiver
-125-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-18:40
+125-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-18:40
 126            android:name="com.dexterous.flutterlocalnotifications.ActionBroadcastReceiver"
-126-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-91
+126-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-91
 127            android:exported="false" />
-127-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
+127-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
 128        <receiver
-128-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:19:9-21:40
+128-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:19:9-21:40
 129            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
-129-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-97
+129-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-97
 130            android:exported="false" />
-130-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-37
+130-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-37
 131        <receiver
-131-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:22:9-31:20
+131-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:22:9-31:20
 132            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
-132-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-101
+132-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-101
 133            android:exported="false" >
-133-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-37
+133-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-37
 134            <intent-filter>
-134-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:25:13-30:29
+134-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:25:13-30:29
 135                <action android:name="android.intent.action.BOOT_COMPLETED" />
-135-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:26:17-79
-135-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:26:25-76
+135-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:26:17-79
+135-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:26:25-76
 136                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
-136-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:27:17-84
-136-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:27:25-81
+136-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:27:17-84
+136-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:27:25-81
 137                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
-137-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:28:17-82
-137-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:28:25-79
+137-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:28:17-82
+137-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:28:25-79
 138                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
-138-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:29:17-82
-138-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:29:25-79
+138-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:29:17-82
+138-->[:flutter_local_notifications] /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:29:25-79
 139            </intent-filter>
 140        </receiver>
 141        <receiver
-141-->[:push_android] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:9-19:20
+141-->[:push_android] /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:9-19:20
 142            android:name="uk.orth.push.FirebaseMessagingReceiver"
-142-->[:push_android] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-66
+142-->[:push_android] /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-66
 143            android:exported="true"
-143-->[:push_android] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-36
+143-->[:push_android] /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-36
 144            android:permission="com.google.android.c2dm.permission.SEND" >
-144-->[:push_android] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-73
+144-->[:push_android] /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-73
 145            <intent-filter>
-145-->[:push_android] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-18:29
+145-->[:push_android] /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-18:29
 146                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-146-->[:push_android] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-81
-146-->[:push_android] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:17:25-78
+146-->[:push_android] /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-81
+146-->[:push_android] /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:17:25-78
 147            </intent-filter>
 148        </receiver>
 149
 150        <service
-150-->[:push_android] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:21:9-27:19
+150-->[:push_android] /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:21:9-27:19
 151            android:name="uk.orth.push.MessagingService"
-151-->[:push_android] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-57
+151-->[:push_android] /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-57
 152            android:exported="false" >
-152-->[:push_android] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-37
+152-->[:push_android] /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-37
 153            <intent-filter>
-153-->[:push_android] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-26:29
+153-->[:push_android] /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-26:29
 154                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-154-->[:push_android] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:25:17-78
-154-->[:push_android] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:25:25-75
+154-->[:push_android] /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:25:17-78
+154-->[:push_android] /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:25:25-75
 155            </intent-filter>
 156        </service>
 157
@@ -313,10 +313,10 @@
 161            android:permission="com.google.android.c2dm.permission.SEND" >
 161-->[com.google.firebase:firebase-messaging:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/c8e04040bc0a9f2abdd1c112bcefe992/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:32:13-73
 162            <intent-filter>
-162-->[:push_android] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-18:29
+162-->[:push_android] /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-18:29
 163                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-163-->[:push_android] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-81
-163-->[:push_android] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:17:25-78
+163-->[:push_android] /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-81
+163-->[:push_android] /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:17:25-78
 164            </intent-filter>
 165
 166            <meta-data
@@ -339,10 +339,10 @@
 177            android:exported="false" >
 177-->[com.google.firebase:firebase-messaging:23.3.1] /Users/mohammedyasir/.gradle/caches/transforms-3/c8e04040bc0a9f2abdd1c112bcefe992/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:49:13-37
 178            <intent-filter android:priority="-500" >
-178-->[:push_android] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-26:29
+178-->[:push_android] /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-26:29
 179                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-179-->[:push_android] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:25:17-78
-179-->[:push_android] /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:25:25-75
+179-->[:push_android] /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:25:17-78
+179-->[:push_android] /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/push_android/intermediates/merged_manifest/release/AndroidManifest.xml:25:25-75
 180            </intent-filter>
 181        </service>
 182

@@ -1,13 +1,13 @@
 <libraries>
   <library
-      name="__local_aars__:/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/app/intermediates/flutter/release/libs.jar:unspecified@jar"
-      jars="/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/app/intermediates/flutter/release/libs.jar"
-      resolved="__local_aars__:/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/app/intermediates/flutter/release/libs.jar:unspecified"/>
+      name="__local_aars__:/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/app/intermediates/flutter/release/libs.jar:unspecified@jar"
+      jars="/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/app/intermediates/flutter/release/libs.jar"
+      resolved="__local_aars__:/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/app/intermediates/flutter/release/libs.jar:unspecified"/>
   <library
-      name="/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android@@:shared_preferences_android::release"
-      jars="/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/shared_preferences_android/.transforms/cee7f04b1cd77952645f3db896c9439a/transformed/out/jars/classes.jar"
+      name="/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/android@@:shared_preferences_android::release"
+      jars="/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/shared_preferences_android/.transforms/d0e001df3f39338be401d74cc0622acb/transformed/out/jars/classes.jar"
       resolved="io.flutter.plugins.sharedpreferences:shared_preferences_android:unspecified"
-      folder="/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/shared_preferences_android/.transforms/cee7f04b1cd77952645f3db896c9439a/transformed/out"
+      folder="/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/shared_preferences_android/.transforms/d0e001df3f39338be401d74cc0622acb/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -17,10 +17,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android@@:firebase_core::release"
-      jars="/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/firebase_core/.transforms/53a018bf621e0be1beb3801e876ec534/transformed/out/jars/classes.jar"
+      name="/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/android@@:firebase_core::release"
+      jars="/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/firebase_core/.transforms/86e4b026aa84e93cbd4866ae372d817c/transformed/out/jars/classes.jar"
       resolved="io.flutter.plugins.firebase.core:firebase_core:unspecified"
-      folder="/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/firebase_core/.transforms/53a018bf621e0be1beb3801e876ec534/transformed/out"
+      folder="/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/firebase_core/.transforms/86e4b026aa84e93cbd4866ae372d817c/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -30,10 +30,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android@@:flutter_plugin_android_lifecycle::release"
-      jars="/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_plugin_android_lifecycle/.transforms/10c149bacbf427adda88de27233a9302/transformed/out/jars/classes.jar"
+      name="/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/android@@:flutter_plugin_android_lifecycle::release"
+      jars="/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/flutter_plugin_android_lifecycle/.transforms/bbad509fc9d2103255f6ee58efa57c67/transformed/out/jars/classes.jar"
       resolved="io.flutter.plugins.flutter_plugin_android_lifecycle:flutter_plugin_android_lifecycle:unspecified"
-      folder="/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_plugin_android_lifecycle/.transforms/10c149bacbf427adda88de27233a9302/transformed/out"
+      folder="/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/flutter_plugin_android_lifecycle/.transforms/bbad509fc9d2103255f6ee58efa57c67/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -43,10 +43,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android@@:flutter_app_badger::release"
-      jars="/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_app_badger/.transforms/dad47f1f8919a02f428c22ce3dd8ed9f/transformed/out/jars/classes.jar"
+      name="/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/android@@:flutter_app_badger::release"
+      jars="/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/flutter_app_badger/.transforms/416e4f766f3a51ee9c7828d1656a6019/transformed/out/jars/classes.jar"
       resolved="fr.g123k.flutterappbadge.flutterappbadger:flutter_app_badger:unspecified"
-      folder="/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_app_badger/.transforms/dad47f1f8919a02f428c22ce3dd8ed9f/transformed/out"
+      folder="/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/flutter_app_badger/.transforms/416e4f766f3a51ee9c7828d1656a6019/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -56,10 +56,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android@@:isar_flutter_libs::release"
-      jars="/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/isar_flutter_libs/.transforms/541d13364715d4d4cbaf44d44024f6c9/transformed/out/jars/classes.jar"
+      name="/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/android@@:isar_flutter_libs::release"
+      jars="/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/isar_flutter_libs/.transforms/cf541f9c04736ab9de59ed48a3f74189/transformed/out/jars/classes.jar"
       resolved="dev.isar.isar_flutter_libs:isar_flutter_libs:unspecified"
-      folder="/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/isar_flutter_libs/.transforms/541d13364715d4d4cbaf44d44024f6c9/transformed/out"
+      folder="/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/isar_flutter_libs/.transforms/cf541f9c04736ab9de59ed48a3f74189/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -69,10 +69,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android@@:flutter_local_notifications::release"
-      jars="/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/.transforms/3ca39dffa1ab76d07bb2e3f0a1d8fc76/transformed/out/jars/classes.jar"
+      name="/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/android@@:flutter_local_notifications::release"
+      jars="/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/flutter_local_notifications/.transforms/1f6ce4f8f434d7b828155c7063d463af/transformed/out/jars/classes.jar"
       resolved="com.dexterous.flutterlocalnotifications:flutter_local_notifications:unspecified"
-      folder="/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/flutter_local_notifications/.transforms/3ca39dffa1ab76d07bb2e3f0a1d8fc76/transformed/out"
+      folder="/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/flutter_local_notifications/.transforms/1f6ce4f8f434d7b828155c7063d463af/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -82,10 +82,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android@@:file_picker::release"
-      jars="/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/file_picker/.transforms/d6d0e07b80b5c7520bec98ceadb5b05a/transformed/out/jars/classes.jar"
+      name="/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/android@@:file_picker::release"
+      jars="/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/file_picker/.transforms/c2336a4454d675478db12852f03720dd/transformed/out/jars/classes.jar"
       resolved="com.mr.flutter.plugin.filepicker:file_picker:unspecified"
-      folder="/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/file_picker/.transforms/d6d0e07b80b5c7520bec98ceadb5b05a/transformed/out"
+      folder="/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/file_picker/.transforms/c2336a4454d675478db12852f03720dd/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -95,10 +95,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android@@:fluttertoast::release"
-      jars="/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/fluttertoast/.transforms/eb4795af7b5be50f4270e39583784a9a/transformed/out/jars/classes.jar"
+      name="/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/android@@:fluttertoast::release"
+      jars="/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/fluttertoast/.transforms/5ea9f4d61b2a6882ffdd19db2f7d94ec/transformed/out/jars/classes.jar"
       resolved="com.example.FlutterToast:fluttertoast:unspecified"
-      folder="/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/fluttertoast/.transforms/eb4795af7b5be50f4270e39583784a9a/transformed/out"
+      folder="/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/fluttertoast/.transforms/5ea9f4d61b2a6882ffdd19db2f7d94ec/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -108,10 +108,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android@@:path_provider_android::release"
-      jars="/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/path_provider_android/.transforms/5eef94f057a5730511c3f9fc7b7a0988/transformed/out/jars/classes.jar"
+      name="/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/android@@:path_provider_android::release"
+      jars="/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/path_provider_android/.transforms/d472b9a49298d66ac005e9623d13a4b0/transformed/out/jars/classes.jar"
       resolved="io.flutter.plugins.pathprovider:path_provider_android:unspecified"
-      folder="/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/path_provider_android/.transforms/5eef94f057a5730511c3f9fc7b7a0988/transformed/out"
+      folder="/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/path_provider_android/.transforms/d472b9a49298d66ac005e9623d13a4b0/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -121,10 +121,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android@@:push_android::release"
-      jars="/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/push_android/.transforms/1b16a6208c9e5e87271b9ca0cf8bcd98/transformed/out/jars/classes.jar"
+      name="/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/android@@:push_android::release"
+      jars="/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/push_android/.transforms/c0c763c5861b125ebbaaa295bd9bf098/transformed/out/jars/classes.jar"
       resolved="uk.orth.push.example:push_android:unspecified"
-      folder="/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/push_android/.transforms/1b16a6208c9e5e87271b9ca0cf8bcd98/transformed/out"
+      folder="/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/push_android/.transforms/c0c763c5861b125ebbaaa295bd9bf098/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -134,10 +134,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/android@@:connectivity_plus::release"
-      jars="/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/connectivity_plus/.transforms/9d4a52fb9697cf439dcc2f048949ec8b/transformed/out/jars/classes.jar"
+      name="/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/android@@:connectivity_plus::release"
+      jars="/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/connectivity_plus/.transforms/61dd365c62815967cc12f1ba2b5f2362/transformed/out/jars/classes.jar"
       resolved="dev.fluttercommunity.plus.connectivity:connectivity_plus:unspecified"
-      folder="/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/connectivity_plus/.transforms/9d4a52fb9697cf439dcc2f048949ec8b/transformed/out"
+      folder="/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/connectivity_plus/.transforms/61dd365c62815967cc12f1ba2b5f2362/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"

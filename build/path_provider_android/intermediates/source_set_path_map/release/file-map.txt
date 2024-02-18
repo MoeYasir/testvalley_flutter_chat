@@ -4,9 +4,9 @@ io.flutter.plugins.pathprovider.path_provider_android-core-1.6.0-2 /Users/mohamm
 io.flutter.plugins.pathprovider.path_provider_android-jetified-window-1.0.0-beta04-3 /Users/mohammedyasir/.gradle/caches/transforms-3/87b89d164bee9476a6fcbdceab00e7d1/transformed/jetified-window-1.0.0-beta04/res
 io.flutter.plugins.pathprovider.path_provider_android-main-4 /Users/mohammedyasir/.pub-cache/hosted/pub.dev/path_provider_android-2.2.1/android/src/main/res
 io.flutter.plugins.pathprovider.path_provider_android-release-5 /Users/mohammedyasir/.pub-cache/hosted/pub.dev/path_provider_android-2.2.1/android/src/release/res
-io.flutter.plugins.pathprovider.path_provider_android-pngs-6 /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/path_provider_android/generated/res/pngs/release
-io.flutter.plugins.pathprovider.path_provider_android-resValues-7 /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/path_provider_android/generated/res/resValues/release
-io.flutter.plugins.pathprovider.path_provider_android-rs-8 /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/path_provider_android/generated/res/rs/release
-io.flutter.plugins.pathprovider.path_provider_android-mergeReleaseResources-9 /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/path_provider_android/intermediates/incremental/release/mergeReleaseResources/merged.dir
-io.flutter.plugins.pathprovider.path_provider_android-mergeReleaseResources-10 /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/path_provider_android/intermediates/incremental/release/mergeReleaseResources/stripped.dir
-io.flutter.plugins.pathprovider.path_provider_android-merged_res-11 /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/path_provider_android/intermediates/merged_res/release
+io.flutter.plugins.pathprovider.path_provider_android-pngs-6 /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/path_provider_android/generated/res/pngs/release
+io.flutter.plugins.pathprovider.path_provider_android-resValues-7 /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/path_provider_android/generated/res/resValues/release
+io.flutter.plugins.pathprovider.path_provider_android-rs-8 /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/path_provider_android/generated/res/rs/release
+io.flutter.plugins.pathprovider.path_provider_android-mergeReleaseResources-9 /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/path_provider_android/intermediates/incremental/release/mergeReleaseResources/merged.dir
+io.flutter.plugins.pathprovider.path_provider_android-mergeReleaseResources-10 /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/path_provider_android/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+io.flutter.plugins.pathprovider.path_provider_android-merged_res-11 /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/path_provider_android/intermediates/merged_res/release

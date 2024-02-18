@@ -4,9 +4,9 @@ dev.fluttercommunity.plus.connectivity.connectivity_plus-core-1.6.0-2 /Users/moh
 dev.fluttercommunity.plus.connectivity.connectivity_plus-jetified-window-1.0.0-beta04-3 /Users/mohammedyasir/.gradle/caches/transforms-3/87b89d164bee9476a6fcbdceab00e7d1/transformed/jetified-window-1.0.0-beta04/res
 dev.fluttercommunity.plus.connectivity.connectivity_plus-main-4 /Users/mohammedyasir/.pub-cache/hosted/pub.dev/connectivity_plus-5.0.2/android/src/main/res
 dev.fluttercommunity.plus.connectivity.connectivity_plus-release-5 /Users/mohammedyasir/.pub-cache/hosted/pub.dev/connectivity_plus-5.0.2/android/src/release/res
-dev.fluttercommunity.plus.connectivity.connectivity_plus-pngs-6 /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/connectivity_plus/generated/res/pngs/release
-dev.fluttercommunity.plus.connectivity.connectivity_plus-resValues-7 /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/connectivity_plus/generated/res/resValues/release
-dev.fluttercommunity.plus.connectivity.connectivity_plus-rs-8 /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/connectivity_plus/generated/res/rs/release
-dev.fluttercommunity.plus.connectivity.connectivity_plus-mergeReleaseResources-9 /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/connectivity_plus/intermediates/incremental/release/mergeReleaseResources/merged.dir
-dev.fluttercommunity.plus.connectivity.connectivity_plus-mergeReleaseResources-10 /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/connectivity_plus/intermediates/incremental/release/mergeReleaseResources/stripped.dir
-dev.fluttercommunity.plus.connectivity.connectivity_plus-merged_res-11 /Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/connectivity_plus/intermediates/merged_res/release
+dev.fluttercommunity.plus.connectivity.connectivity_plus-pngs-6 /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/connectivity_plus/generated/res/pngs/release
+dev.fluttercommunity.plus.connectivity.connectivity_plus-resValues-7 /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/connectivity_plus/generated/res/resValues/release
+dev.fluttercommunity.plus.connectivity.connectivity_plus-rs-8 /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/connectivity_plus/generated/res/rs/release
+dev.fluttercommunity.plus.connectivity.connectivity_plus-mergeReleaseResources-9 /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/connectivity_plus/intermediates/incremental/release/mergeReleaseResources/merged.dir
+dev.fluttercommunity.plus.connectivity.connectivity_plus-mergeReleaseResources-10 /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/connectivity_plus/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+dev.fluttercommunity.plus.connectivity.connectivity_plus-merged_res-11 /Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/connectivity_plus/intermediates/merged_res/release

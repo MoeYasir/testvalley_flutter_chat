@@ -1,4 +1,4 @@
-#Sat Feb 17 06:16:07 CAT 2024
-base.0=/Users/mohammedyasir/Documents/GitHub/sendbird-chat-sample-flutter/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+#Sun Feb 18 11:45:47 CAT 2024
+base.0=/Users/mohammedyasir/Documents/GitHub/testvalley_flutter_chat/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
