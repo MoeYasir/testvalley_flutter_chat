@@ -4,9 +4,11 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:get/get.dart';
+import 'package:random_x/random_x.dart';
 import 'package:sendbird_chat_sample/component/widgets.dart';
 import 'package:sendbird_chat_sample/main.dart';
 import 'package:sendbird_chat_sample/notifications/push_manager.dart';
+import 'package:sendbird_chat_sample/page/channel/open_channel/open_channel_page.dart';
 import 'package:sendbird_chat_sample/utils/app_prefs.dart';
 import 'package:sendbird_chat_sample/utils/user_prefs.dart';
 import 'package:sendbird_chat_sdk/sendbird_chat_sdk.dart';
@@ -21,6 +23,7 @@ class LoginPage extends StatefulWidget {
 
 class _LoginPageState extends State<LoginPage> {
   final textEditingController = TextEditingController();
+  final randomId = RndX.generateEmail();
 
   bool? isLoginUserId;
   bool useCollectionCaching = AppPrefs.defaultUseCollectionCaching;
@@ -34,16 +37,15 @@ class _LoginPageState extends State<LoginPage> {
   Future<void> init() async {
     PushManager.removeBadge();
 
-    final loginUserId = await UserPrefs.getLoginUserId();
     final useCaching = AppPrefs().getUseCollectionCaching();
 
     setState(() {
-      isLoginUserId = (loginUserId != null);
+      isLoginUserId = (randomId != null);
       useCollectionCaching = useCaching;
     });
 
-    if (loginUserId != null) {
-      _login(loginUserId);
+    if (randomId != null) {
+      _login(randomId);
     }
   }
 
@@ -66,7 +68,7 @@ class _LoginPageState extends State<LoginPage> {
       await SendbirdChatWidget.cacheNotificationInfo();
 
       if ((await PushManager.checkPushNotification()) == false) {
-        Get.offAndToNamed('/main');
+        Get.offAndToNamed('/open_channel/:channel_url');
       }
     } else {
       Fluttertoast.showToast(
@@ -86,23 +88,9 @@ class _LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: [
-            Expanded(
-                child: Widgets.pageTitle('Sendbird Chat Sample for Flutter')),
-            const Text('v$sampleVersion', style: TextStyle(fontSize: 12.0)),
-          ],
-        ),
-        actions: const [],
-      ),
-      body: isLoginUserId != null
-          ? isLoginUserId!
-              ? Container()
-              : _loginBox()
-          : Container(),
-    );
+        body: isLoginUserId != null
+            ? Center(child: CircularProgressIndicator())
+            : _loginBox());
   }
 
   Widget _loginBox() {

@@ -8,13 +8,8 @@ import 'package:get/get_navigation/src/root/get_material_app.dart';
 import 'package:get/get_navigation/src/routes/get_route.dart';
 import 'package:sendbird_chat_sample/notifications/local_notifications_manager.dart';
 import 'package:sendbird_chat_sample/notifications/push_manager.dart';
-import 'package:sendbird_chat_sample/page/channel/open_channel/open_channel_create_page.dart';
-import 'package:sendbird_chat_sample/page/channel/open_channel/open_channel_list_page.dart';
 import 'package:sendbird_chat_sample/page/channel/open_channel/open_channel_page.dart';
-import 'package:sendbird_chat_sample/page/channel/open_channel/open_channel_search_page.dart';
-import 'package:sendbird_chat_sample/page/channel/open_channel/open_channel_update_page.dart';
 import 'package:sendbird_chat_sample/page/login_page.dart';
-import 'package:sendbird_chat_sample/page/main_page.dart';
 import 'package:sendbird_chat_sample/page/message/message_update_page.dart';
 import 'package:sendbird_chat_sample/utils/app_prefs.dart';
 
@@ -72,14 +67,6 @@ class MyApp extends StatelessWidget {
         GetPage(
           name: '/login',
           page: () => const LoginPage(),
-        ),
-        GetPage(
-          name: '/main',
-          page: () => const MainPage(),
-        ),
-        GetPage(
-          name: '/open_channel/update/:channel_url',
-          page: () => const OpenChannelUpdatePage(),
         ),
         GetPage(
           name: '/open_channel/:channel_url',
